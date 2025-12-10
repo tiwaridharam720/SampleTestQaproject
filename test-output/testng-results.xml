@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-09T15:10:18 IST" name="Online Store" finished-at="2025-12-09T15:13:14 IST" duration-ms="176255">
+    <groups>
+    </groups>
+    <test started-at="2025-12-09T15:10:18 IST" name="Test" finished-at="2025-12-09T15:13:14 IST" duration-ms="176255">
+      <class name="com.qa.test.HomePageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@2362f559]" started-at="2025-12-09T15:10:18 IST" name="Setup" finished-at="2025-12-09T15:10:57 IST" duration-ms="38760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ValidateThePageTitle()[pri:1, instance:com.qa.test.HomePageTest@2362f559]" started-at="2025-12-09T15:10:57 IST" name="ValidateThePageTitle" finished-at="2025-12-09T15:10:57 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateThePageTitle -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@2362f559]" started-at="2025-12-09T15:10:57 IST" name="Teardown" finished-at="2025-12-09T15:11:09 IST" duration-ms="11828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@2362f559]" started-at="2025-12-09T15:11:13 IST" name="Setup" finished-at="2025-12-09T15:11:23 IST" duration-ms="9691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="doSearchTest(java.lang.String)[pri:2, instance:com.qa.test.HomePageTest@2362f559]" started-at="2025-12-09T15:11:23 IST" name="doSearchTest" data-provider="HomePageTestData" finished-at="2025-12-09T15:11:25 IST" duration-ms="1816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearchTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@2362f559]" started-at="2025-12-09T15:11:25 IST" name="Teardown" finished-at="2025-12-09T15:11:29 IST" duration-ms="4638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@2362f559]" started-at="2025-12-09T15:11:29 IST" name="Setup" finished-at="2025-12-09T15:11:37 IST" duration-ms="7516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="doSearchTest(java.lang.String)[pri:2, instance:com.qa.test.HomePageTest@2362f559]" started-at="2025-12-09T15:11:37 IST" name="doSearchTest" data-provider="HomePageTestData" finished-at="2025-12-09T15:11:39 IST" duration-ms="2401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearchTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@2362f559]" started-at="2025-12-09T15:11:39 IST" name="Teardown" finished-at="2025-12-09T15:11:44 IST" duration-ms="4337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@2362f559]" started-at="2025-12-09T15:11:44 IST" name="Setup" finished-at="2025-12-09T15:11:50 IST" duration-ms="6087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="doSearchTest(java.lang.String)[pri:2, instance:com.qa.test.HomePageTest@2362f559]" started-at="2025-12-09T15:11:50 IST" name="doSearchTest" data-provider="HomePageTestData" finished-at="2025-12-09T15:11:51 IST" duration-ms="1713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mackbook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearchTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@2362f559]" started-at="2025-12-09T15:11:51 IST" name="Teardown" finished-at="2025-12-09T15:11:56 IST" duration-ms="4408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.qa.test.HomePageTest -->
+      <class name="com.qa.test.RegisterPageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:11:56 IST" name="Setup" finished-at="2025-12-09T15:12:07 IST" duration-ms="11098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ValidateRigesterPageTitle()[pri:1, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:12:07 IST" name="ValidateRigesterPageTitle" finished-at="2025-12-09T15:12:07 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRigesterPageTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:12:07 IST" name="teardown" finished-at="2025-12-09T15:12:07 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:12:07 IST" name="Setup" finished-at="2025-12-09T15:12:28 IST" duration-ms="21020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="validateAllfieldLabel()[pri:2, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:12:28 IST" name="validateAllfieldLabel" finished-at="2025-12-09T15:12:29 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllfieldLabel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:12:29 IST" name="teardown" finished-at="2025-12-09T15:12:29 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:12:29 IST" name="Setup" finished-at="2025-12-09T15:12:40 IST" duration-ms="10755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="doRegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:12:40 IST" name="doRegisterTest" data-provider="getRegisterTestdata" finished-at="2025-12-09T15:12:44 IST" duration-ms="4785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fname ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcd@abcd.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Dms@test1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Dms@test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:12:44 IST" name="teardown" finished-at="2025-12-09T15:12:45 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:12:45 IST" name="Setup" finished-at="2025-12-09T15:12:53 IST" duration-ms="8278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="doRegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:12:53 IST" name="doRegisterTest" data-provider="getRegisterTestdata" finished-at="2025-12-09T15:13:05 IST" duration-ms="11702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fname ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abc@abc.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9354984729]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Dms@test1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Dms@test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:13:05 IST" name="teardown" finished-at="2025-12-09T15:13:05 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:13:05 IST" name="Setup" finished-at="2025-12-09T15:13:12 IST" duration-ms="6462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="doRegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:13:12 IST" name="doRegisterTest" data-provider="getRegisterTestdata" finished-at="2025-12-09T15:13:14 IST" duration-ms="2170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fname ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tiwaridhram720@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9354984729]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Dms@test1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Dms@test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.test.RegisterPageTest@1e178745]" started-at="2025-12-09T15:13:14 IST" name="teardown" finished-at="2025-12-09T15:13:14 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.test.RegisterPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Online Store -->
+</testng-results>

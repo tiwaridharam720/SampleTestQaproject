@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Online_Store" class="navigator-link">
+              <span class="suite-name border-failed">Online Store</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Online_Store" class="navigator-link ">
+                    <span>C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Online_Store" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Online_Store" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Online_Store" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Online_Store" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Online_Store" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Online_Store" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Online_Store" class="hide-methods failed suite-Online_Store"> (hide)</a> <!-- hide-methods failed suite-Online_Store -->
+                      <a href="#" panel-name="suite-Online_Store" class="show-methods failed suite-Online_Store"> (show)</a> <!-- show-methods failed suite-Online_Store -->
+                    </span>
+                    <div class="method-list-content failed suite-Online_Store">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.RegisterPageTest" class="method navigator-link" hash-for-method="validateAllfieldLabel">validateAllfieldLabel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Online_Store -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Online_Store" class="hide-methods passed suite-Online_Store"> (hide)</a> <!-- hide-methods passed suite-Online_Store -->
+                      <a href="#" panel-name="suite-Online_Store" class="show-methods passed suite-Online_Store"> (show)</a> <!-- show-methods passed suite-Online_Store -->
+                    </span>
+                    <div class="method-list-content passed suite-Online_Store">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.RegisterPageTest" class="method navigator-link" hash-for-method="ValidateRigesterPageTitle">ValidateRigesterPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="ValidateThePageTitle">ValidateThePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.RegisterPageTest" class="method navigator-link" hash-for-method="doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1)">doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.RegisterPageTest" class="method navigator-link" hash-for-method="doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)">doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.RegisterPageTest" class="method navigator-link" hash-for-method="doRegisterTest(Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1)">doRegisterTest(Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="doSearchTest(Mobile)">doSearchTest(Mobile)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="doSearchTest(Mackbook)">doSearchTest(Mackbook)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="doSearchTest(Laptop)">doSearchTest(Laptop)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Online_Store -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Online_Store" class="panel Online_Store">
+          <div class="suite-Online_Store-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.test.RegisterPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAllfieldLabel">
+                  </a> <!-- validateAllfieldLabel -->
+                  <span class="method-name">validateAllfieldLabel</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Reward Point] but found [Reward Points]
+	at com.qa.test.RegisterPageTest.validateAllfieldLabel(RegisterPageTest.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Online_Store-class-failed -->
+          <div class="suite-Online_Store-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.RegisterPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateRigesterPageTitle">
+                  </a> <!-- ValidateRigesterPageTitle -->
+                  <span class="method-name">ValidateRigesterPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1)">
+                  </a> <!-- doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1) -->
+                  <span class="method-name">doRegisterTest</span>
+                  <span class="parameters">(Fname ,LName,Abc@abc.com,9354984729,Dms@test1,Dms@test1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)">
+                  </a> <!-- doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1) -->
+                  <span class="method-name">doRegisterTest</span>
+                  <span class="parameters">(Fname ,LName,Abcd@abcd.com,9999999999,Dms@test1,Dms@test1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doRegisterTest(Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1)">
+                  </a> <!-- doRegisterTest(Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1) -->
+                  <span class="method-name">doRegisterTest</span>
+                  <span class="parameters">(Fname ,LName,tiwaridhram720@gmail.com,9354984729,Dms@test1,Dms@test1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Online_Store-class-passed -->
+          <div class="suite-Online_Store-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateThePageTitle">
+                  </a> <!-- ValidateThePageTitle -->
+                  <span class="method-name">ValidateThePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSearchTest(Mobile)">
+                  </a> <!-- doSearchTest(Mobile) -->
+                  <span class="method-name">doSearchTest</span>
+                  <span class="parameters">(Mobile)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSearchTest(Mackbook)">
+                  </a> <!-- doSearchTest(Mackbook) -->
+                  <span class="method-name">doSearchTest</span>
+                  <span class="parameters">(Mackbook)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSearchTest(Laptop)">
+                  </a> <!-- doSearchTest(Laptop) -->
+                  <span class="method-name">doSearchTest</span>
+                  <span class="parameters">(Laptop)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Online_Store-class-passed -->
+        </div> <!-- panel Online_Store -->
+        <div panel-name="test-xml-Online_Store" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Online Store&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.reports.ExtentReportsListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.test.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.test.RegisterPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Online Store --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Online_Store" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Online Store</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Online_Store" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Online Store</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Online_Store" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Online Store</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Online_Store');
+function tableData_Online_Store() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'doRegisterTest')
+data.setCell(0, 2, 'com.qa.test.RegisterPageTest')
+data.setCell(0, 3, 3059);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'doRegisterTest')
+data.setCell(1, 2, 'com.qa.test.RegisterPageTest')
+data.setCell(1, 3, 2701);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'doSearchTest')
+data.setCell(2, 2, 'com.qa.test.HomePageTest')
+data.setCell(2, 3, 2283);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'doSearchTest')
+data.setCell(3, 2, 'com.qa.test.HomePageTest')
+data.setCell(3, 3, 2232);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'doRegisterTest')
+data.setCell(4, 2, 'com.qa.test.RegisterPageTest')
+data.setCell(4, 3, 2183);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'doSearchTest')
+data.setCell(5, 2, 'com.qa.test.HomePageTest')
+data.setCell(5, 3, 1821);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateAllfieldLabel')
+data.setCell(6, 2, 'com.qa.test.RegisterPageTest')
+data.setCell(6, 3, 181);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ValidateThePageTitle')
+data.setCell(7, 2, 'com.qa.test.HomePageTest')
+data.setCell(7, 3, 92);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ValidateRigesterPageTitle')
+data.setCell(8, 2, 'com.qa.test.RegisterPageTest')
+data.setCell(8, 3, 29);
+window.suiteTableData['Online_Store']= { tableData: data, tableDiv: 'times-div-Online_Store'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-Online_Store">
+              </div> <!-- times-div-Online_Store -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Online_Store" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Online Store</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Online_Store" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Online_Store" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateThePageTitle</span>
+                <span class="method-start">19703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">19797 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">25066 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doSearchTest(Mobile)</span>
+                <span class="method-start">30291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">32574 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">37513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doSearchTest(Laptop)</span>
+                <span class="method-start">42845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">45078 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">50538 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doSearchTest(Mackbook)</span>
+                <span class="method-start">56591 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">58412 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.test.RegisterPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">62699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateRigesterPageTitle</span>
+                <span class="method-start">72947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">72977 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">73394 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateAllfieldLabel</span>
+                <span class="method-start">79532 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">79736 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">79926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)</span>
+                <span class="method-start">86152 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">89211 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">89421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1)</span>
+                <span class="method-start">97065 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">99769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">100013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doRegisterTest(Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1)</span>
+                <span class="method-start">106666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">108849 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
