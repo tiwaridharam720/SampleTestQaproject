@@ -1,3 +1,7 @@
+
+
+
+
 package com.qa.test;
 
 import java.io.IOException;
@@ -23,6 +27,9 @@ import com.qa.Pages.RegisterPage;
 import com.qa.testbase.TestBase;
 import com.qa.util.Util;
 
+/**
+ *    Author Name Dharam 
+ */
 public class RegisterPageTest extends TestBase {
 
 	HomePage Homepage;
