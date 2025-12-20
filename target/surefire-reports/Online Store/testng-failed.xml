@@ -10,6 +10,7 @@
         <methods>
           <include name="Setup"/>
           <include name="teardown"/>
+          <include name="doRegisterTest"/>
           <include name="validateAllfieldLabel"/>
         </methods>
       </class> <!-- com.qa.test.RegisterPageTest -->

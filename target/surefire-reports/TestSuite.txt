@@ -1,8 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 111.021 s <<< FAILURE! - in TestSuite
-com.qa.test.RegisterPageTest.validateAllfieldLabel  Time elapsed: 0.192 s  <<< FAILURE!
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 8, Time elapsed: 279.041 s <<< FAILURE! - in TestSuite
+com.qa.test.RegisterPageTest.validateAllfieldLabel  Time elapsed: 0.537 s  <<< FAILURE!
 java.lang.AssertionError: expected [Reward Point] but found [Reward Points]
-	at com.qa.test.RegisterPageTest.validateAllfieldLabel(RegisterPageTest.java:111)
+	at com.qa.test.RegisterPageTest.validateAllfieldLabel(RegisterPageTest.java:118)
+
+com.qa.test.RegisterPageTest.Setup  Time elapsed: 73.238 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 43.934
+  (Session info: chrome=142.0.7444.177)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-3EL3S29', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60581}, goog:processID: 18948, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71c2ca8272a515e94d558bd4c12958fd
+	at com.qa.test.RegisterPageTest.Setup(RegisterPageTest.java:55)
 

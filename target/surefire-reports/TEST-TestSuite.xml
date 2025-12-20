@@ -1,209 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="111.021" tests="9" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="279.041" tests="15" errors="0" skipped="8" failures="2">
   <properties>
-    <property name="java.specification.version" value="25"/>
+    <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="C:\Users\LENOVO\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject\target\test-classes;C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject\target\classes;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LENOVO\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\LENOVO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\LENOVO\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\LENOVO\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\LENOVO\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\LENOVO\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LENOVO\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\LENOVO\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar;C:\Users\LENOVO\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\LENOVO\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\LENOVO\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\LENOVO\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\LENOVO\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\LENOVO\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\LENOVO\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\LENOVO\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\LENOVO\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\LENOVO\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\LENOVO\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\LENOVO\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\LENOVO\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\LENOVO\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\LENOVO\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.class.path" value="C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject\target\test-classes;C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject\target\classes;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LENOVO\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\LENOVO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\LENOVO\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\LENOVO\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\LENOVO\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\LENOVO\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LENOVO\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\LENOVO\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar;C:\Users\LENOVO\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\LENOVO\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\LENOVO\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\LENOVO\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\LENOVO\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\LENOVO\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\LENOVO\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\LENOVO\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\LENOVO\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\LENOVO\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\LENOVO\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\LENOVO\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\LENOVO\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\LENOVO\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\LENOVO\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\LENOVO\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="25"/>
+    <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire9450037585369457314\surefirebooter14564159820093184712.jar C:\Users\LENOVO\AppData\Local\Temp\surefire9450037585369457314 2025-12-10T01-01-40_137-jvmRun1 surefire15118892556440914648tmp surefire_09056981428085170302tmp"/>
+    <property name="sun.boot.library.path" value="D:\Software Setup\Eclips\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire9884279959361185597\surefirebooter11223180659710796466.jar C:\Users\LENOVO\AppData\Local\Temp\surefire9884279959361185597 2025-12-20T15-36-53_317-jvmRun1 surefire8306706765238250065tmp surefire_01919600181413682712tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject\target\test-classes;C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject\target\classes;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LENOVO\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\LENOVO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\LENOVO\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\LENOVO\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\LENOVO\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\LENOVO\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LENOVO\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\LENOVO\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar;C:\Users\LENOVO\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\LENOVO\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\LENOVO\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\LENOVO\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\LENOVO\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\LENOVO\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\LENOVO\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\LENOVO\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\LENOVO\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\LENOVO\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\LENOVO\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\LENOVO\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\LENOVO\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\LENOVO\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\LENOVO\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject\target\test-classes;C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject\target\classes;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LENOVO\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\LENOVO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\LENOVO\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\LENOVO\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\LENOVO\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\LENOVO\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LENOVO\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\LENOVO\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar;C:\Users\LENOVO\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\LENOVO\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\LENOVO\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\LENOVO\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\LENOVO\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\LENOVO\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\LENOVO\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\LENOVO\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\LENOVO\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\LENOVO\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\LENOVO\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\LENOVO\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\LENOVO\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\LENOVO\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\LENOVO\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\LENOVO\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\LENOVO"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2025-10-21"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="D:\Software Setup\Eclips\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject"/>
+    <property name="style.color" value="always"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire9450037585369457314\surefirebooter14564159820093184712.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire9884279959361185597\surefirebooter11223180659710796466.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="java.runtime.version" value="21.0.8+9-LTS"/>
     <property name="user.name" value="LENOVO"/>
     <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.8+9"/>
     <property name="localRepository" value="C:\Users\LENOVO\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\LENOVO\AppData\Local\Temp\"/>
-    <property name="java.version" value="25.0.1"/>
+    <property name="java.version" value="21.0.8"/>
     <property name="user.dir" value="C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\LENOVO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestAutomation/bin;D:\Python\Scripts\;D:\Python\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\;redist\intel64\compiler;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\LENOVO\AppData\Local\Android\SDK\platform-tools;C:\Program Files\Java\jdk1.8.0_241;C:\Users\LENOVO\AppData\Local\Android\SDK\tools;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;E:\gradle-8.0.2\bin;C:\Users\LENOVO\AppData\Local\Programs\Python\Launcher\;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Users\LENOVO\AppData\Roaming\npm;C:\Users\LENOVO\AppData\Local\Python\bin;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\maven-mvnd-1.0.3-windows-amd64\bin;;."/>
+    <property name="java.library.path" value="D:\Software Setup\Eclips\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Software Setup/Eclips/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin/server;D:/Software Setup/Eclips/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\;redist\intel64\compiler;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\LENOVO\AppData\Local\Android\SDK\platform-tools;C:\Program Files\Java\jdk1.8.0_241;C:\Users\LENOVO\AppData\Local\Android\SDK\tools;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;E:\gradle-8.0.2\bin;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Launcher\;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Users\LENOVO\AppData\Roaming\npm;C:\Users\LENOVO\AppData\Local\Python\bin;C:\Program Files (x86)\maven-mvnd-1.0.3-windows-amd64\bin;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;D:\Software Setup\Eclips\eclipse;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
-    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.8+9-LTS"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="69.0"/>
+    <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="ValidateThePageTitle" classname="com.qa.test.HomePageTest" time="0.045">
-    <system-out><![CDATA[java.io.FileInputStream@6e75aa0d
-java.io.FileInputStream@4b5a5ed1
-java.io.FileInputStream@7e8e8651
+  <testcase name="ValidateThePageTitle" classname="com.qa.test.HomePageTest" time="0.026">
+    <system-out><![CDATA[java.io.FileInputStream@7e0b85f9
+java.io.FileInputStream@55141def
+java.io.FileInputStream@19ccca5
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@75201592
+java.io.FileInputStream@3ac04654
 Prinnt PageTitleYour Store
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 36458
+log4j:WARN No appenders could be found for logger (com.qa.test.HomePageTest).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 5842
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 36458.
-Dec 10, 2025 1:01:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 5842.
+Dec 20, 2025 3:37:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doSearchTest[Mobile](1)" classname="com.qa.test.HomePageTest" time="2.277">
-    <system-out><![CDATA[2025-12-09T19:32:07.568243500Z main ERROR Log4j API could not find a logging provider.
+  <testcase name="doSearchTest[Mobile](1)" classname="com.qa.test.HomePageTest" time="6.228">
+    <system-out><![CDATA[2025-12-20T10:07:57.240822500Z main ERROR Log4j API could not find a logging provider.
 Mobile
 Laptop
 Mackbook
-java.io.FileInputStream@87b5b49
+java.io.FileInputStream@7cbeac65
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@19058533
+java.io.FileInputStream@5a6fa56e
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //button[@class='btn btn-default btn-lg']
 Found Element By : By.xpath: //button[@class='btn btn-default btn-lg']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (4ef0fad38be8b0f25cd12101714e6dd1)] -> xpath: //button[@class='btn btn-default btn-lg']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (4ef0fad38be8b0f25cd12101714e6dd1)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (14ac1430dc58273527ad2b6c02b3a40b)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (14ac1430dc58273527ad2b6c02b3a40b)] -> xpath: //button[@class='btn btn-default btn-lg']]
 Trying to find Element By : By.cssSelector: div[id='content'] h1
 Found Element By : By.cssSelector: div[id='content'] h1
 PageHeader is Search - Mobile
 Search - Mobile
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 8649
+    <system-err><![CDATA[Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 19297
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 8649.
-Dec 10, 2025 1:02:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 19297.
+Dec 20, 2025 3:38:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doSearchTest[Laptop](2)" classname="com.qa.test.HomePageTest" time="2.225">
-    <system-out><![CDATA[java.io.FileInputStream@26d96e5
+  <testcase name="doSearchTest[Laptop](2)" classname="com.qa.test.HomePageTest" time="3.738">
+    <system-out><![CDATA[java.io.FileInputStream@77049094
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@2b59501e
+java.io.FileInputStream@d7109be
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //button[@class='btn btn-default btn-lg']
 Found Element By : By.xpath: //button[@class='btn btn-default btn-lg']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (f745ed791fd8dd37eac53f9f9014206b)] -> xpath: //button[@class='btn btn-default btn-lg']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (f745ed791fd8dd37eac53f9f9014206b)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (8540cf1ce0efb729fb4db036515f66e6)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (8540cf1ce0efb729fb4db036515f66e6)] -> xpath: //button[@class='btn btn-default btn-lg']]
 Trying to find Element By : By.cssSelector: div[id='content'] h1
 Found Element By : By.cssSelector: div[id='content'] h1
 PageHeader is Search - Laptop
 Search - Laptop
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 27438
+    <system-err><![CDATA[Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 45968
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 27438.
-Dec 10, 2025 1:02:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 45968.
+Dec 20, 2025 3:38:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doSearchTest[Mackbook](3)" classname="com.qa.test.HomePageTest" time="1.811">
-    <system-out><![CDATA[java.io.FileInputStream@16c587de
+  <testcase name="doSearchTest[Mackbook](3)" classname="com.qa.test.HomePageTest" time="4.595">
+    <system-out><![CDATA[java.io.FileInputStream@4779aae6
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@a7ad6e5
+java.io.FileInputStream@4b5a078a
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //button[@class='btn btn-default btn-lg']
 Found Element By : By.xpath: //button[@class='btn btn-default btn-lg']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (b51d6b2ef90c31613ba37b7e88d30396)] -> xpath: //button[@class='btn btn-default btn-lg']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (b51d6b2ef90c31613ba37b7e88d30396)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (0180dcabe98da39e97be1626fded3451)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (0180dcabe98da39e97be1626fded3451)] -> xpath: //button[@class='btn btn-default btn-lg']]
 Trying to find Element By : By.cssSelector: div[id='content'] h1
 Found Element By : By.cssSelector: div[id='content'] h1
 PageHeader is Search - Mackbook
 Search - Mackbook
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 25573
+    <system-err><![CDATA[Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 3772
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 25573.
-Dec 10, 2025 1:02:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 3772.
+Dec 20, 2025 3:38:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="ValidateRigesterPageTitle" classname="com.qa.test.RegisterPageTest" time="0.013">
-    <system-out><![CDATA[java.io.FileInputStream@554f0dfb
+  <testcase name="ValidateRigesterPageTitle" classname="com.qa.test.RegisterPageTest" time="0.088">
+    <system-out><![CDATA[java.io.FileInputStream@575b5f7d
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@7f353d99
+java.io.FileInputStream@2f894ad9
 Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
 Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (be714730e645c59961801d39b8026607)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (be714730e645c59961801d39b8026607)] -> xpath: //span[normalize-space()='My Account']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ca878c9b61b2252895142bb9eefc0e14)] -> xpath: //span[normalize-space()='My Account']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ca878c9b61b2252895142bb9eefc0e14)] -> xpath: //span[normalize-space()='My Account']]
 Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
 Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (be714730e645c59961801d39b8026607)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (be714730e645c59961801d39b8026607)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@cdb2d95
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ca878c9b61b2252895142bb9eefc0e14)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ca878c9b61b2252895142bb9eefc0e14)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+java.io.FileInputStream@6dc1dc69
 Register Account
 Ragister Page titelRegister Account
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 15486
+    <system-err><![CDATA[Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 22125
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 15486.
-Dec 10, 2025 1:02:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 22125.
+Dec 20, 2025 3:39:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="validateAllfieldLabel" classname="com.qa.test.RegisterPageTest" time="0.192">
+  <testcase name="validateAllfieldLabel" classname="com.qa.test.RegisterPageTest" time="0.537">
     <failure message="expected [Reward Point] but found [Reward Points]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Reward Point] but found [Reward Points]
-	at com.qa.test.RegisterPageTest.validateAllfieldLabel(RegisterPageTest.java:111)
+	at com.qa.test.RegisterPageTest.validateAllfieldLabel(RegisterPageTest.java:118)
 ]]></failure>
-    <system-out><![CDATA[java.io.FileInputStream@17f3eefb
+    <system-out><![CDATA[java.io.FileInputStream@19b206ee
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@64db4967
+java.io.FileInputStream@3c9c6245
 Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
 Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (95d38bd39f758973630a2c9cc606f5ae)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (95d38bd39f758973630a2c9cc606f5ae)] -> xpath: //span[normalize-space()='My Account']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (211c19f02f205b6a287360a0c881accf)] -> xpath: //span[normalize-space()='My Account']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (211c19f02f205b6a287360a0c881accf)] -> xpath: //span[normalize-space()='My Account']]
 Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
 Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (95d38bd39f758973630a2c9cc606f5ae)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (95d38bd39f758973630a2c9cc606f5ae)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@6ada9c0c
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (211c19f02f205b6a287360a0c881accf)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (211c19f02f205b6a287360a0c881accf)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+java.io.FileInputStream@67022ea
 Trying to find Element By : By.xpath: //div[@id='account-register']//a[@class='list-group-item']
 Found Element By : By.xpath: //div[@id='account-register']//a[@class='list-group-item']
 Totatl Number of Element are ........13
@@ -218,15 +222,25 @@ Print Register Page label Name is : ....Downloads
 Print Register Page label Name is : ....Recurring payments
 Print Register Page label Name is : ....Reward Points
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 45073
+    <system-err><![CDATA[Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 22865
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 45073.
-Dec 10, 2025 1:02:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 22865.
+Dec 20, 2025 3:39:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doRegisterTest[Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1](1)" classname="com.qa.test.RegisterPageTest" time="3.047">
+  <testcase name="Setup" classname="com.qa.test.RegisterPageTest" time="73.238">
+    <failure message="timeout: Timed out receiving message from renderer: 43.934&#10;  (Session info: chrome=142.0.7444.177)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-3EL3S29&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60581}, goog:processID: 18948, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 71c2ca8272a515e94d558bd4c12958fd" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 43.934
+  (Session info: chrome=142.0.7444.177)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-3EL3S29', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60581}, goog:processID: 18948, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71c2ca8272a515e94d558bd4c12958fd
+	at com.qa.test.RegisterPageTest.Setup(RegisterPageTest.java:55)
+]]></failure>
     <system-out><![CDATA[Fname 
 LName
 Abcd@abcd.com
@@ -245,405 +259,51 @@ tiwaridhram720@gmail.com
 9354984729
 Dms@test1
 Dms@test1
-java.io.FileInputStream@69d45cca
+java.io.FileInputStream@310ed6b4
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
-Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@27fe9713
-Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
-Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (61fedc67a7f8c1caa5e191aad9cc57ab)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (61fedc67a7f8c1caa5e191aad9cc57ab)] -> xpath: //span[normalize-space()='My Account']]
-Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (61fedc67a7f8c1caa5e191aad9cc57ab)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (61fedc67a7f8c1caa5e191aad9cc57ab)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@1f1e58ca
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Print Test of RadiobuttonYes
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (61fedc67a7f8c1caa5e191aad9cc57ab)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (61fedc67a7f8c1caa5e191aad9cc57ab)] -> xpath: //label[normalize-space()='Yes']]
-Trying to find Element By : By.xpath: //input[@name='agree']
-Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (61fedc67a7f8c1caa5e191aad9cc57ab)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (61fedc67a7f8c1caa5e191aad9cc57ab)] -> xpath: //input[@name='agree']]
-Trying to find Element By : By.xpath: //input[@value='Continue']
-Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (61fedc67a7f8c1caa5e191aad9cc57ab)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (61fedc67a7f8c1caa5e191aad9cc57ab)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: .alert.alert-danger.alert-dismissible
-Exception occured: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression .alert.alert-danger.alert-dismissible because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.alert.alert-danger.alert-dismissible' is not a valid XPath expression.
+Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 43.934
   (Session info: chrome=142.0.7444.177)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-3EL3S29', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+System info: host: 'DESKTOP-3EL3S29', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56095}, goog:processID: 12072, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 61fedc67a7f8c1caa5e191aad9cc57ab
-*** Element info: {Using=xpath, value=.alert.alert-danger.alert-dismissible}
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot15698430703776941252.png
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60581}, goog:processID: 18948, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71c2ca8272a515e94d558bd4c12958fd
+Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot16011574283269740108.png
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 33176
+    <system-err><![CDATA[Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 23849
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 33176.
-Dec 10, 2025 1:03:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 23849.
+Dec 20, 2025 3:40:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression .alert.alert-danger.alert-dismissible because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.alert.alert-danger.alert-dismissible' is not a valid XPath expression.
-  (Session info: chrome=142.0.7444.177)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-3EL3S29', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56095}, goog:processID: 12072, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 61fedc67a7f8c1caa5e191aad9cc57ab
-*** Element info: {Using=xpath, value=.alert.alert-danger.alert-dismissible}
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at jdk.proxy2/jdk.proxy2.$Proxy7.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at com.qa.util.Util.ErrorMessageHandeler(Util.java:164)
-	at com.qa.test.RegisterPageTest.doRegisterTest(RegisterPageTest.java:157)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+[1766225472.914][SEVERE]: Timed out receiving message from renderer: 43.934
+[1766225475.260][SEVERE]: Timed out receiving message from renderer: 43.934
+Dec 20, 2025 3:41:15 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '500' -> incorrect JSON status mapping for 'timeout' (408 expected)
 ]]></system-err>
   </testcase>
-  <testcase name="doRegisterTest[Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1](2)" classname="com.qa.test.RegisterPageTest" time="2.7">
-    <system-out><![CDATA[java.io.FileInputStream@72503b19
-Before navigating to: 'https://naveenautomationlabs.com/opencart/'
-Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@7c2924d7
-Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
-Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (5f39cb1fd5348520053414ec0b728b9f)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (5f39cb1fd5348520053414ec0b728b9f)] -> xpath: //span[normalize-space()='My Account']]
-Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (5f39cb1fd5348520053414ec0b728b9f)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (5f39cb1fd5348520053414ec0b728b9f)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@60c1663c
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Print Test of RadiobuttonYes
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (5f39cb1fd5348520053414ec0b728b9f)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (5f39cb1fd5348520053414ec0b728b9f)] -> xpath: //label[normalize-space()='Yes']]
-Trying to find Element By : By.xpath: //input[@name='agree']
-Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (5f39cb1fd5348520053414ec0b728b9f)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (5f39cb1fd5348520053414ec0b728b9f)] -> xpath: //input[@name='agree']]
-Trying to find Element By : By.xpath: //input[@value='Continue']
-Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (5f39cb1fd5348520053414ec0b728b9f)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (5f39cb1fd5348520053414ec0b728b9f)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: .alert.alert-danger.alert-dismissible
-Exception occured: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression .alert.alert-danger.alert-dismissible because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.alert.alert-danger.alert-dismissible' is not a valid XPath expression.
-  (Session info: chrome=142.0.7444.177)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-3EL3S29', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56121}, goog:processID: 3752, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5f39cb1fd5348520053414ec0b728b9f
-*** Element info: {Using=xpath, value=.alert.alert-danger.alert-dismissible}
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot9280193579523241062.png
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 30182
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 30182.
-Dec 10, 2025 1:03:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression .alert.alert-danger.alert-dismissible because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.alert.alert-danger.alert-dismissible' is not a valid XPath expression.
-  (Session info: chrome=142.0.7444.177)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-3EL3S29', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56121}, goog:processID: 3752, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5f39cb1fd5348520053414ec0b728b9f
-*** Element info: {Using=xpath, value=.alert.alert-danger.alert-dismissible}
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at jdk.proxy2/jdk.proxy2.$Proxy7.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at com.qa.util.Util.ErrorMessageHandeler(Util.java:164)
-	at com.qa.test.RegisterPageTest.doRegisterTest(RegisterPageTest.java:157)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]></system-err>
+  <testcase name="Setup" classname="com.qa.test.RegisterPageTest" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="doRegisterTest[Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1](3)" classname="com.qa.test.RegisterPageTest" time="2.168">
-    <system-out><![CDATA[java.io.FileInputStream@42d6c12d
-Before navigating to: 'https://naveenautomationlabs.com/opencart/'
-Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@65e22def
-Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
-Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (70d1b8fa5eb58da347a61dd6e70edd02)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (70d1b8fa5eb58da347a61dd6e70edd02)] -> xpath: //span[normalize-space()='My Account']]
-Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (70d1b8fa5eb58da347a61dd6e70edd02)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (70d1b8fa5eb58da347a61dd6e70edd02)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@2e62ead7
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Print Test of RadiobuttonYes
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (70d1b8fa5eb58da347a61dd6e70edd02)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (70d1b8fa5eb58da347a61dd6e70edd02)] -> xpath: //label[normalize-space()='Yes']]
-Trying to find Element By : By.xpath: //input[@name='agree']
-Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (70d1b8fa5eb58da347a61dd6e70edd02)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (70d1b8fa5eb58da347a61dd6e70edd02)] -> xpath: //input[@name='agree']]
-Trying to find Element By : By.xpath: //input[@value='Continue']
-Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (70d1b8fa5eb58da347a61dd6e70edd02)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (70d1b8fa5eb58da347a61dd6e70edd02)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: .alert.alert-danger.alert-dismissible
-Exception occured: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression .alert.alert-danger.alert-dismissible because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.alert.alert-danger.alert-dismissible' is not a valid XPath expression.
-  (Session info: chrome=142.0.7444.177)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-3EL3S29', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56149}, goog:processID: 14808, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 70d1b8fa5eb58da347a61dd6e70edd02
-*** Element info: {Using=xpath, value=.alert.alert-danger.alert-dismissible}
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot7161002307036947374.png
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 5958
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 5958.
-Dec 10, 2025 1:03:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression .alert.alert-danger.alert-dismissible because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.alert.alert-danger.alert-dismissible' is not a valid XPath expression.
-  (Session info: chrome=142.0.7444.177)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-3EL3S29', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56149}, goog:processID: 14808, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 70d1b8fa5eb58da347a61dd6e70edd02
-*** Element info: {Using=xpath, value=.alert.alert-danger.alert-dismissible}
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at jdk.proxy2/jdk.proxy2.$Proxy7.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at com.qa.util.Util.ErrorMessageHandeler(Util.java:164)
-	at com.qa.test.RegisterPageTest.doRegisterTest(RegisterPageTest.java:157)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]></system-err>
+  <testcase name="Setup" classname="com.qa.test.RegisterPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="doRegisterTest[Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1](1)" classname="com.qa.test.RegisterPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 43.934&#10;  (Session info: chrome=142.0.7444.177)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-3EL3S29&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60581}, goog:processID: 18948, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 71c2ca8272a515e94d558bd4c12958fd"/>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.RegisterPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.RegisterPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.qa.test.RegisterPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="doRegisterTest[Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1](2)" classname="com.qa.test.RegisterPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 43.934&#10;  (Session info: chrome=142.0.7444.177)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-3EL3S29&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60581}, goog:processID: 18948, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 71c2ca8272a515e94d558bd4c12958fd"/>
+  </testcase>
+  <testcase name="doRegisterTest[Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1](3)" classname="com.qa.test.RegisterPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 43.934&#10;  (Session info: chrome=142.0.7444.177)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-3EL3S29&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60581}, goog:processID: 18948, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 71c2ca8272a515e94d558bd4c12958fd"/>
   </testcase>
 </testsuite>

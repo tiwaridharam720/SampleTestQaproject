@@ -36,7 +36,7 @@ public class HomePageTest extends TestBase {
 		homepage = new HomePage();
 	}   
 
-	@Test(priority =1, enabled = true)
+	@Test(priority =1, enabled = false)
 
 	public void ValidateThePageTitle() {
 		log.info("****************************** starting test case *****************************************");

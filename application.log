@@ -1,0 +1,80 @@
+2025-12-20 15:46:55,425  INFO [main] HomePageTest:33 - ****************************Starting the Test Case execustion***********
+2025-12-20 15:47:15,830  INFO [main] HomePageTest:42 - ****************************** starting test case *****************************************
+2025-12-20 15:47:15,831  INFO [main] HomePageTest:43 - ****************************** Your Store *****************************************
+2025-12-20 15:47:15,854  INFO [main] HomePageTest:51 - ****************************** ending test case *****************************************
+2025-12-20 15:47:15,855  INFO [main] HomePageTest:52 - ****************************** Your Store *****************************************
+2025-12-20 15:47:21,163  INFO [main] HomePageTest:117 - ****************************** Browser is closed *****************************************
+2025-12-20 15:47:22,061  INFO [main] HomePageTest:33 - ****************************Starting the Test Case execustion***********
+2025-12-20 15:47:35,666  INFO [main] HomePageTest:98 - ******************Info Search Product********************
+2025-12-20 15:47:35,667 DEBUG [main] HomePageTest:99 - *********************Search Product********************
+2025-12-20 15:47:35,669 FATAL [main] HomePageTest:100 - *********************Fatal Search Product**************
+2025-12-20 15:47:35,670  WARN [main] HomePageTest:101 - **********************Waring Search Product*************
+2025-12-20 15:47:40,088  INFO [main] HomePageTest:117 - ****************************** Browser is closed *****************************************
+2025-12-20 15:47:40,090  INFO [main] HomePageTest:33 - ****************************Starting the Test Case execustion***********
+2025-12-20 15:47:55,385  INFO [main] HomePageTest:98 - ******************Info Search Product********************
+2025-12-20 15:47:55,388 DEBUG [main] HomePageTest:99 - *********************Search Product********************
+2025-12-20 15:47:55,390 FATAL [main] HomePageTest:100 - *********************Fatal Search Product**************
+2025-12-20 15:47:55,391  WARN [main] HomePageTest:101 - **********************Waring Search Product*************
+2025-12-20 15:48:00,638  INFO [main] HomePageTest:117 - ****************************** Browser is closed *****************************************
+2025-12-20 15:48:00,639  INFO [main] HomePageTest:33 - ****************************Starting the Test Case execustion***********
+2025-12-20 15:48:11,444  INFO [main] HomePageTest:98 - ******************Info Search Product********************
+2025-12-20 15:48:11,445 DEBUG [main] HomePageTest:99 - *********************Search Product********************
+2025-12-20 15:48:11,446 FATAL [main] HomePageTest:100 - *********************Fatal Search Product**************
+2025-12-20 15:48:11,448  WARN [main] HomePageTest:101 - **********************Waring Search Product*************
+2025-12-20 15:48:15,831  INFO [main] HomePageTest:117 - ****************************** Browser is closed *****************************************
+2025-12-20 15:48:16,093 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-12-20 15:48:16,095 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2025-12-20 15:48:16,100 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2025-12-20 15:48:16,103 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2025-12-20 15:48:16,105 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2025-12-20 15:48:16,383 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-12-20 15:48:16,384 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2025-12-20 15:48:16,386 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2025-12-20 15:48:16,387 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2025-12-20 15:48:16,388 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2025-12-20 16:01:09,031  INFO [main] HomePageTest:33 - ****************************Starting the Test Case execustion***********
+2025-12-20 16:01:22,485  INFO [main] HomePageTest:98 - ******************Info Search Product********************
+2025-12-20 16:01:22,486 DEBUG [main] HomePageTest:99 - *********************Search Product********************
+2025-12-20 16:01:22,488 FATAL [main] HomePageTest:100 - *********************Fatal Search Product**************
+2025-12-20 16:01:22,490  WARN [main] HomePageTest:101 - **********************Waring Search Product*************
+2025-12-20 16:01:26,799  INFO [main] HomePageTest:117 - ****************************** Browser is closed *****************************************
+2025-12-20 16:01:26,806  INFO [main] HomePageTest:33 - ****************************Starting the Test Case execustion***********
+2025-12-20 16:01:38,119  INFO [main] HomePageTest:98 - ******************Info Search Product********************
+2025-12-20 16:01:38,120 DEBUG [main] HomePageTest:99 - *********************Search Product********************
+2025-12-20 16:01:38,121 FATAL [main] HomePageTest:100 - *********************Fatal Search Product**************
+2025-12-20 16:01:38,122  WARN [main] HomePageTest:101 - **********************Waring Search Product*************
+2025-12-20 16:01:47,091  INFO [main] HomePageTest:117 - ****************************** Browser is closed *****************************************
+2025-12-20 16:01:47,093  INFO [main] HomePageTest:33 - ****************************Starting the Test Case execustion***********
+2025-12-20 16:01:59,552  INFO [main] HomePageTest:98 - ******************Info Search Product********************
+2025-12-20 16:01:59,554 DEBUG [main] HomePageTest:99 - *********************Search Product********************
+2025-12-20 16:01:59,556 FATAL [main] HomePageTest:100 - *********************Fatal Search Product**************
+2025-12-20 16:01:59,557  WARN [main] HomePageTest:101 - **********************Waring Search Product*************
+2025-12-20 16:02:04,984  INFO [main] HomePageTest:117 - ****************************** Browser is closed *****************************************
+2025-12-20 16:02:05,294 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-12-20 16:02:05,295 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2025-12-20 16:02:05,299 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2025-12-20 16:02:05,301 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2025-12-20 16:02:05,301 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2025-12-20 16:02:05,606 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-12-20 16:02:05,608 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2025-12-20 16:02:05,609 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2025-12-20 16:02:05,612 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2025-12-20 16:02:05,613 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2025-12-20 16:04:33,093  INFO [main] HomePageTest:33 - ****************************Starting the Test Case execustion***********
+2025-12-20 16:04:50,183  INFO [main] HomePageTest:98 - ******************Info Search Product********************
+2025-12-20 16:04:50,183 DEBUG [main] HomePageTest:99 - *********************Search Product********************
+2025-12-20 16:04:50,184 FATAL [main] HomePageTest:100 - *********************Fatal Search Product**************
+2025-12-20 16:04:50,185  WARN [main] HomePageTest:101 - **********************Waring Search Product*************
+2025-12-20 16:04:55,344  INFO [main] HomePageTest:117 - ****************************** Browser is closed *****************************************
+2025-12-20 16:04:55,346  INFO [main] HomePageTest:33 - ****************************Starting the Test Case execustion***********
+2025-12-20 16:05:10,576  INFO [main] HomePageTest:98 - ******************Info Search Product********************
+2025-12-20 16:05:10,577 DEBUG [main] HomePageTest:99 - *********************Search Product********************
+2025-12-20 16:05:10,577 FATAL [main] HomePageTest:100 - *********************Fatal Search Product**************
+2025-12-20 16:05:10,578  WARN [main] HomePageTest:101 - **********************Waring Search Product*************
+2025-12-20 16:05:14,848  INFO [main] HomePageTest:117 - ****************************** Browser is closed *****************************************
+2025-12-20 16:05:14,849  INFO [main] HomePageTest:33 - ****************************Starting the Test Case execustion***********
+2025-12-20 16:05:26,379  INFO [main] HomePageTest:98 - ******************Info Search Product********************
+2025-12-20 16:05:26,380 DEBUG [main] HomePageTest:99 - *********************Search Product********************
+2025-12-20 16:05:26,380 FATAL [main] HomePageTest:100 - *********************Fatal Search Product**************
+2025-12-20 16:05:26,381  WARN [main] HomePageTest:101 - **********************Waring Search Product*************
+2025-12-20 16:05:31,485  INFO [main] HomePageTest:117 - ****************************** Browser is closed *****************************************

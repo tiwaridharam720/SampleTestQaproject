@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                    <span class="method-stats">9 methods, 1 failed,  3 skipped,  5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -107,6 +107,30 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Online_Store -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Online_Store" class="hide-methods skipped suite-Online_Store"> (hide)</a> <!-- hide-methods skipped suite-Online_Store -->
+                      <a href="#" panel-name="suite-Online_Store" class="show-methods skipped suite-Online_Store"> (show)</a> <!-- show-methods skipped suite-Online_Store -->
+                    </span>
+                    <div class="method-list-content skipped suite-Online_Store">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.RegisterPageTest" class="method navigator-link" hash-for-method="doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)">doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.RegisterPageTest" class="method navigator-link" hash-for-method="doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1)">doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.RegisterPageTest" class="method navigator-link" hash-for-method="doRegisterTest(Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1)">doRegisterTest(Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Online_Store -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -127,32 +151,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.RegisterPageTest" class="method navigator-link" hash-for-method="doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1)">doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.RegisterPageTest" class="method navigator-link" hash-for-method="doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)">doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.RegisterPageTest" class="method navigator-link" hash-for-method="doRegisterTest(Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1)">doRegisterTest(Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="doSearchTest(Mobile)">doSearchTest(Mobile)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="doSearchTest(Mackbook)">doSearchTest(Mackbook)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="doSearchTest(Laptop)">doSearchTest(Laptop)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="doSearchTest(Mobile)">doSearchTest(Mobile)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Online_Store -->
@@ -179,25 +188,48 @@
                   </a> <!-- validateAllfieldLabel -->
                   <span class="method-name">validateAllfieldLabel</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [Reward Point] but found [Reward Points]
-	at com.qa.test.RegisterPageTest.validateAllfieldLabel(RegisterPageTest.java:111)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at com.qa.test.RegisterPageTest.validateAllfieldLabel(RegisterPageTest.java:118)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Online_Store-class-failed -->
-          <div class="suite-Online_Store-class-passed">
+          <div class="suite-Online_Store-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">com.qa.test.RegisterPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ValidateRigesterPageTitle">
-                  </a> <!-- ValidateRigesterPageTitle -->
-                  <span class="method-name">ValidateRigesterPageTitle</span>
+                  <a name="doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)">
+                  </a> <!-- doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1) -->
+                  <span class="method-name">doRegisterTest</span>
+                  <span class="parameters">(Fname ,LName,Abcd@abcd.com,9999999999,Dms@test1,Dms@test1)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 43.934
+  (Session info: chrome=142.0.7444.177)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-3EL3S29&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60581}, goog:processID: 18948, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71c2ca8272a515e94d558bd4c12958fd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.qa.testbase.TestBase.Initilization(TestBase.java:75)
+	at com.qa.test.RegisterPageTest.Setup(RegisterPageTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -206,14 +238,28 @@
                   </a> <!-- doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1) -->
                   <span class="method-name">doRegisterTest</span>
                   <span class="parameters">(Fname ,LName,Abc@abc.com,9354984729,Dms@test1,Dms@test1)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)">
-                  </a> <!-- doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1) -->
-                  <span class="method-name">doRegisterTest</span>
-                  <span class="parameters">(Fname ,LName,Abcd@abcd.com,9999999999,Dms@test1,Dms@test1)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 43.934
+  (Session info: chrome=142.0.7444.177)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-3EL3S29&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60581}, goog:processID: 18948, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71c2ca8272a515e94d558bd4c12958fd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.qa.testbase.TestBase.Initilization(TestBase.java:75)
+	at com.qa.test.RegisterPageTest.Setup(RegisterPageTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -222,10 +268,32 @@
                   </a> <!-- doRegisterTest(Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1) -->
                   <span class="method-name">doRegisterTest</span>
                   <span class="parameters">(Fname ,LName,tiwaridhram720@gmail.com,9354984729,Dms@test1,Dms@test1)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 43.934
+  (Session info: chrome=142.0.7444.177)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-3EL3S29&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60581}, goog:processID: 18948, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71c2ca8272a515e94d558bd4c12958fd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.qa.testbase.TestBase.Initilization(TestBase.java:75)
+	at com.qa.test.RegisterPageTest.Setup(RegisterPageTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Online_Store-class-passed -->
+          </div> <!-- suite-Online_Store-class-skipped -->
           <div class="suite-Online_Store-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -237,14 +305,6 @@
                   <a name="ValidateThePageTitle">
                   </a> <!-- ValidateThePageTitle -->
                   <span class="method-name">ValidateThePageTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="doSearchTest(Mobile)">
-                  </a> <!-- doSearchTest(Mobile) -->
-                  <span class="method-name">doSearchTest</span>
-                  <span class="parameters">(Mobile)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -261,6 +321,29 @@
                   </a> <!-- doSearchTest(Laptop) -->
                   <span class="method-name">doSearchTest</span>
                   <span class="parameters">(Laptop)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSearchTest(Mobile)">
+                  </a> <!-- doSearchTest(Mobile) -->
+                  <span class="method-name">doSearchTest</span>
+                  <span class="parameters">(Mobile)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Online_Store-class-passed -->
+          <div class="suite-Online_Store-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.RegisterPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateRigesterPageTitle">
+                  </a> <!-- ValidateRigesterPageTitle -->
+                  <span class="method-name">ValidateRigesterPageTitle</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -323,46 +406,46 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'doRegisterTest')
-data.setCell(0, 2, 'com.qa.test.RegisterPageTest')
-data.setCell(0, 3, 3059);
+data.setCell(0, 1, 'doSearchTest')
+data.setCell(0, 2, 'com.qa.test.HomePageTest')
+data.setCell(0, 3, 6663);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'doRegisterTest')
-data.setCell(1, 2, 'com.qa.test.RegisterPageTest')
-data.setCell(1, 3, 2701);
+data.setCell(1, 1, 'doSearchTest')
+data.setCell(1, 2, 'com.qa.test.HomePageTest')
+data.setCell(1, 3, 4592);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'doSearchTest')
 data.setCell(2, 2, 'com.qa.test.HomePageTest')
-data.setCell(2, 3, 2283);
+data.setCell(2, 3, 3748);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'doSearchTest')
-data.setCell(3, 2, 'com.qa.test.HomePageTest')
-data.setCell(3, 3, 2232);
+data.setCell(3, 1, 'validateAllfieldLabel')
+data.setCell(3, 2, 'com.qa.test.RegisterPageTest')
+data.setCell(3, 3, 604);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'doRegisterTest')
+data.setCell(4, 1, 'ValidateRigesterPageTitle')
 data.setCell(4, 2, 'com.qa.test.RegisterPageTest')
-data.setCell(4, 3, 2183);
+data.setCell(4, 3, 143);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'doSearchTest')
+data.setCell(5, 1, 'ValidateThePageTitle')
 data.setCell(5, 2, 'com.qa.test.HomePageTest')
-data.setCell(5, 3, 1821);
+data.setCell(5, 3, 90);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validateAllfieldLabel')
+data.setCell(6, 1, 'doRegisterTest')
 data.setCell(6, 2, 'com.qa.test.RegisterPageTest')
-data.setCell(6, 3, 181);
+data.setCell(6, 3, 4);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'ValidateThePageTitle')
-data.setCell(7, 2, 'com.qa.test.HomePageTest')
-data.setCell(7, 3, 92);
+data.setCell(7, 1, 'doRegisterTest')
+data.setCell(7, 2, 'com.qa.test.RegisterPageTest')
+data.setCell(7, 3, 0);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'ValidateRigesterPageTitle')
+data.setCell(8, 1, 'doRegisterTest')
 data.setCell(8, 2, 'com.qa.test.RegisterPageTest')
-data.setCell(8, 3, 29);
+data.setCell(8, 3, 0);
 window.suiteTableData['Online_Store']= { tableData: data, tableDiv: 'times-div-Online_Store'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-Online_Store">
               </div> <!-- times-div-Online_Store -->
             </div> <!-- times-div -->
@@ -395,112 +478,102 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ValidateThePageTitle</span>
-                <span class="method-start">19703 ms</span>
+                <span class="method-start">44094 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">19797 ms</span>
+                <span class="method-start">44190 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">25066 ms</span>
+                <span class="method-start">51344 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">doSearchTest(Mobile)</span>
-                <span class="method-start">30291 ms</span>
+                <span class="method-start">65019 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">32574 ms</span>
+                <span class="method-start">71685 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">37513 ms</span>
+                <span class="method-start">78177 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">doSearchTest(Laptop)</span>
-                <span class="method-start">42845 ms</span>
+                <span class="method-start">94751 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">45078 ms</span>
+                <span class="method-start">98507 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">50538 ms</span>
+                <span class="method-start">104032 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">doSearchTest(Mackbook)</span>
-                <span class="method-start">56591 ms</span>
+                <span class="method-start">127793 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">58412 ms</span>
+                <span class="method-start">132395 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.test.RegisterPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">62699 ms</span>
+                <span class="method-start">138606 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ValidateRigesterPageTitle</span>
-                <span class="method-start">72947 ms</span>
+                <span class="method-start">163783 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">72977 ms</span>
+                <span class="method-start">163926 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">73394 ms</span>
+                <span class="method-start">164884 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">validateAllfieldLabel</span>
-                <span class="method-start">79532 ms</span>
+                <span class="method-start">184880 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">79736 ms</span>
+                <span class="method-start">185508 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Setup</span>
+                <span class="method-start">186874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">258336 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">79926 ms</span>
+                <span class="method-start">258349 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)</span>
-                <span class="method-start">86152 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">89211 ms</span>
+                <span class="method-start">258364 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">89421 ms</span>
+                <span class="method-start">258369 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1)</span>
-                <span class="method-start">97065 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">99769 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">Setup</span>
-                <span class="method-start">100013 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">doRegisterTest(Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1)</span>
-                <span class="method-start">106666 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">108849 ms</span>
+                <span class="method-start">258412 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
