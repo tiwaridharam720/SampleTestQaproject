@@ -3,8 +3,9 @@
 <suite name="Failed suite [Online Store]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.qa.reports.ExtentReportsListener"/>
+    <listener class-name="com.qa.Analyzer.MyTransformer"/>
   </listeners>
-  <test thread-count="5" name="Default test(failed)">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="com.qa.test.RegisterPageTest">
         <methods>
@@ -13,6 +14,13 @@
           <include name="validateAllfieldLabel"/>
         </methods>
       </class> <!-- com.qa.test.RegisterPageTest -->
+      <class name="com.qa.test.HomePageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="Teardown"/>
+          <include name="doSearchTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.qa.test.HomePageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Online Store] -->

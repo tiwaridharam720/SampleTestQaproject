@@ -24,3 +24,111 @@
 2025-12-20 17:04:38,671 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
 2025-12-20 17:04:38,672 WARN  com.qa.test.RegisterPageTest - Error is coming 
 2025-12-20 17:04:38,672 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2025-12-20 17:25:22,178 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:26:31,050 INFO  com.qa.test.HomePageTest - ******************Info Search Product********************
+2025-12-20 17:26:31,051 DEBUG com.qa.test.HomePageTest - *********************Search Product********************
+2025-12-20 17:26:31,052 FATAL com.qa.test.HomePageTest - *********************Fatal Search Product**************
+2025-12-20 17:26:31,053 WARN  com.qa.test.HomePageTest - **********************Waring Search Product*************
+2025-12-20 17:26:37,693 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:26:37,695 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:26:55,506 INFO  com.qa.test.HomePageTest - ******************Info Search Product********************
+2025-12-20 17:26:55,507 DEBUG com.qa.test.HomePageTest - *********************Search Product********************
+2025-12-20 17:26:55,508 FATAL com.qa.test.HomePageTest - *********************Fatal Search Product**************
+2025-12-20 17:26:55,508 WARN  com.qa.test.HomePageTest - **********************Waring Search Product*************
+2025-12-20 17:26:59,883 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:26:59,885 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:27:23,623 INFO  com.qa.test.HomePageTest - ******************Info Search Product********************
+2025-12-20 17:27:23,624 DEBUG com.qa.test.HomePageTest - *********************Search Product********************
+2025-12-20 17:27:23,625 FATAL com.qa.test.HomePageTest - *********************Fatal Search Product**************
+2025-12-20 17:27:23,625 WARN  com.qa.test.HomePageTest - **********************Waring Search Product*************
+2025-12-20 17:27:28,228 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:43:04,507 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:45:55,072 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:46:47,868 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:46:47,874 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:47:11,602 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:47:11,607 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:47:27,670 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:47:27,674 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:47:42,764 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:47:42,768 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:48:00,322 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:48:00,330 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:48:15,652 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:48:15,657 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:48:30,249 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:48:30,252 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:48:44,524 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:48:44,527 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:49:04,840 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:49:04,842 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:49:26,488 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:49:26,489 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:49:40,669 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:49:40,672 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:49:56,099 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:53:16,081 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:53:31,435 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:53:31,443 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:53:47,777 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:53:47,784 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:54:04,594 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:54:04,599 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:54:19,521 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:54:19,527 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:54:34,180 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:54:34,186 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:54:49,454 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:54:49,459 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:55:11,560 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:55:11,564 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:55:26,729 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:55:26,734 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:55:40,425 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:55:40,428 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:55:55,534 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:55:55,538 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:56:11,498 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:56:11,499 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-20 17:56:26,664 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-20 17:56:26,669 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2025-12-20 17:56:35,650 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@50b734c4
+2025-12-20 17:56:37,312 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2025-12-20 17:56:37,312 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2025-12-20 17:56:37,313 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2025-12-20 17:56:37,325 DEBUG com.qa.test.RegisterPageTest - Register Account
+2025-12-20 17:56:37,634 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2025-12-20 17:56:46,672 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@349c4d1c
+2025-12-20 17:56:48,908 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2025-12-20 17:56:48,908 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2025-12-20 17:56:48,910 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2025-12-20 17:56:49,330 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2025-12-20 17:56:58,644 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@448462f0
+2025-12-20 17:57:00,949 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2025-12-20 17:57:00,950 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2025-12-20 17:57:00,950 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2025-12-20 17:57:01,273 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2025-12-20 17:57:10,253 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@458031da
+2025-12-20 17:57:11,601 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2025-12-20 17:57:11,601 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2025-12-20 17:57:11,602 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2025-12-20 17:57:12,001 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2025-12-20 17:57:20,313 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@1c62c3fd
+2025-12-20 17:57:21,972 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2025-12-20 17:57:21,973 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2025-12-20 17:57:21,974 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2025-12-20 17:57:22,421 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2025-12-20 17:57:31,108 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@270d5060
+2025-12-20 17:57:32,358 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2025-12-20 17:57:32,358 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2025-12-20 17:57:32,358 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2025-12-20 17:57:35,770 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2025-12-20 17:57:44,972 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@2aa6bbad
+2025-12-20 17:57:46,498 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2025-12-20 17:57:46,498 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2025-12-20 17:57:46,499 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2025-12-20 17:57:48,830 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2025-12-20 17:57:57,491 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@42ecc554
+2025-12-20 17:57:59,628 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2025-12-20 17:57:59,629 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2025-12-20 17:57:59,631 FATAL com.qa.test.RegisterPageTest - Fatal Error message

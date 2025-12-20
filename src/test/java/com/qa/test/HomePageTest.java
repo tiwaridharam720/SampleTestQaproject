@@ -79,7 +79,7 @@ public class HomePageTest extends TestBase {
 
 
 
-	@Test(priority =2 , dataProvider="HomePageTestData", enabled =true)
+	@Test(priority =2 , dataProvider="HomePageTestData", enabled =true, retryAnalyzer=com.qa.Analyzer.RetryAnalyzer.class)
 	 public void doSearchTest(String ProductName) {
 
 		String ActaulHeaderAfterSearch = homepage.doSearch(ProductName);
@@ -94,7 +94,7 @@ public class HomePageTest extends TestBase {
 		System.out.println(ActaulHeaderAfterSearch);
 
 		//Assert.assertEquals(ActaulHeaderAfterSearch, "Search - " +ProductName);
-    	Assert.assertEquals(ActaulHeaderAfterSearch, "Search - " + ProductName);
+    	Assert.assertEquals(ActaulHeaderAfterSearch, "Search  " + ProductName);
     	log.info("******************Info Search Product********************");
     	log.debug("*********************Search Product********************");
     	log.fatal("*********************Fatal Search Product**************");
