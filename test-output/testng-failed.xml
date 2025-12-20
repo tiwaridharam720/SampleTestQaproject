@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="com.qa.reports.ExtentReportsListener"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="com.qa.test.RegisterPageTest">
         <methods>
@@ -14,5 +14,5 @@
         </methods>
       </class> <!-- com.qa.test.RegisterPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Online Store] -->

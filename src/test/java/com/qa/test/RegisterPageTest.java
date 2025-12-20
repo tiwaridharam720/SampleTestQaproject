@@ -7,6 +7,7 @@ package com.qa.test;
 import java.io.IOException;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -37,6 +38,7 @@ public class RegisterPageTest extends TestBase {
 	RegisterPage registerPage;
 	String SheetName ="RegisterData";
 	
+	Logger log = Logger.getLogger(RegisterPageTest.class);	
 	
 	@FindBy(how=How.XPATH, using ="//*[@id='account']/div/label")
 	private List<WebElement> PageLabelLIST;
@@ -52,11 +54,17 @@ public class RegisterPageTest extends TestBase {
 
 	@BeforeMethod
 	public void Setup() {
+		log.info("******* Browser Opening *****");
 		Initilization();
+		log.debug(eventlistner);;
 		Homepage = new HomePage();
+		
 		
 		//Util.switchToFrame();
 		registerPage =Homepage.NavigateToRigesterPage();
+		log.info("******* Register user Details********");
+		log.warn("Error is coming ");
+		log.fatal("Fatal Error message");
 	}
 		@Test(priority =1,enabled=true)
 	public void ValidateRigesterPageTitle() {
@@ -67,6 +75,7 @@ public class RegisterPageTest extends TestBase {
 		System.out.println("Ragister Page titel" +RegisterPageTitel);
 
 		Assert.assertEquals(RegisterPageTitel, "Register Account");
+		log.debug(RegisterPageTitel);
 
 	}
 
@@ -133,7 +142,7 @@ public class RegisterPageTest extends TestBase {
 					e.printStackTrace();
 				}
 			    
-			    
+			    log.debug(LabelList+ "Validation");
 			    
 			   
 			  
@@ -162,6 +171,7 @@ public class RegisterPageTest extends TestBase {
 			loginP=registerPage.doRigester(Fisrtname, Lastname, Emaild,PhoneNUmber, Password, ConfirmPassword);
 			
 			Assert.assertEquals(Util.ErrorMessageHandeler(), "Warning: E-Mail Address is already registered!");
+			log.info("RegisterTest info");
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

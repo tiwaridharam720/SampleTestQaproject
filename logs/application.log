@@ -1,0 +1,26 @@
+2025-12-20 17:02:39,157 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2025-12-20 17:03:23,232 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@71c905a3
+2025-12-20 17:03:27,053 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2025-12-20 17:03:27,054 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2025-12-20 17:03:27,055 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2025-12-20 17:03:27,121 DEBUG com.qa.test.RegisterPageTest - Register Account
+2025-12-20 17:03:27,686 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2025-12-20 17:03:43,535 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@121c54fa
+2025-12-20 17:03:45,881 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2025-12-20 17:03:45,881 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2025-12-20 17:03:45,882 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2025-12-20 17:03:47,473 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2025-12-20 17:03:59,966 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@1a2bcd56
+2025-12-20 17:04:01,538 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2025-12-20 17:04:01,538 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2025-12-20 17:04:01,539 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2025-12-20 17:04:04,497 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2025-12-20 17:04:16,485 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@5853ca50
+2025-12-20 17:04:17,815 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2025-12-20 17:04:17,815 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2025-12-20 17:04:17,816 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2025-12-20 17:04:20,746 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2025-12-20 17:04:36,227 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@3c66b7d8
+2025-12-20 17:04:38,671 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2025-12-20 17:04:38,672 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2025-12-20 17:04:38,672 FATAL com.qa.test.RegisterPageTest - Fatal Error message
