@@ -124,7 +124,7 @@ public class RegisterPageTest extends TestBase {
 						   }else if(LabelName_Of_RegisterPage.contains("Recurring")) {
 							   Assert.assertEquals(LabelName_Of_RegisterPage, "Recurring payments");
 						   }else if(LabelName_Of_RegisterPage.contains("Reward")) {
-							   Assert.assertEquals(LabelName_Of_RegisterPage, "Reward Point");
+							   Assert.assertEquals(LabelName_Of_RegisterPage, "Reward Points");
 						   }else if(LabelName_Of_RegisterPage.contains("Returns")) {
 							   Assert.assertEquals(LabelName_Of_RegisterPage, "Returns");
 						   }else if(LabelName_Of_RegisterPage.contains("Transactions")) {

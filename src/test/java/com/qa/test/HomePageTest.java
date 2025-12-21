@@ -94,7 +94,7 @@ public class HomePageTest extends TestBase {
 		System.out.println(ActaulHeaderAfterSearch);
 
 		//Assert.assertEquals(ActaulHeaderAfterSearch, "Search - " +ProductName);
-    	Assert.assertEquals(ActaulHeaderAfterSearch, "Search  " + ProductName);
+    	Assert.assertEquals(ActaulHeaderAfterSearch, "Search - " + ProductName);
     	log.info("******************Info Search Product********************");
     	log.debug("*********************Search Product********************");
     	log.fatal("*********************Fatal Search Product**************");
