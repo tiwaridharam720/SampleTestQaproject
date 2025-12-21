@@ -192,6 +192,6 @@ public class RegisterPageTest extends TestBase {
 		
 		
 		driver.quit();
-		log.info(registerPage);
+		log.error("Getting error-------");
 	}
 }
