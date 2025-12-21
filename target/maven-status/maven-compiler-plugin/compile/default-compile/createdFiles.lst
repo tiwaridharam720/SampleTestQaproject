@@ -1,7 +1,9 @@
+com\qa\Analyzer\MyTransformer.class
 com\qa\reports\ExtentReportsListener.class
 com\qa\util\Util.class
 com\qa\Pages\LoginPage.class
 com\qa\Pages\RegisterPage.class
 com\qa\Pages\HomePage.class
+com\qa\Analyzer\RetryAnalyzer.class
 com\qa\util\WebElementListener.class
 com\qa\testbase\TestBase.class

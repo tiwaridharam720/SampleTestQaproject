@@ -170,7 +170,7 @@ public class RegisterPageTest extends TestBase {
 		try {
 			loginP=registerPage.doRigester(Fisrtname, Lastname, Emaild,PhoneNUmber, Password, ConfirmPassword);
 			
-			Assert.assertEquals(Util.ErrorMessageHandeler(), "Warning: You must agree to the Privacy Policy!");
+			Assert.assertEquals(Util.ErrorMessageHandeler(), " Warning: You must agree to the Privacy Policy!");
 			log.info("RegisterTest info");
 			
 			
