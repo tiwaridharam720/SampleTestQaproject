@@ -157,7 +157,7 @@ public class Util extends TestBase{
 		
 		String ErrorMessageXpath ="//div[@class='alert alert-danger alert-dismissible']";
 		
-		String ErroemssageCssSelector=".alert.alert-danger.alert-dismissible";
+		String ErroemssageCssSelector="//div[@class='alert alert-danger alert-dismissible']//i";
 		
 		
 		

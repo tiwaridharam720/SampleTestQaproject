@@ -89,7 +89,7 @@ public class RegisterPageTest extends TestBase {
 //		};
 //	}
 
-		@Test(priority=2)
+		@Test(priority=2, enabled =true)
 		 public void validateAllfieldLabel() {
 			    
 			    
@@ -170,8 +170,11 @@ public class RegisterPageTest extends TestBase {
 		try {
 			loginP=registerPage.doRigester(Fisrtname, Lastname, Emaild,PhoneNUmber, Password, ConfirmPassword);
 			
-			Assert.assertEquals(Util.ErrorMessageHandeler(), "Warning: E-Mail Address is already registered!");
+			Assert.assertEquals(Util.ErrorMessageHandeler(), "Warning: You must agree to the Privacy Policy!");
 			log.info("RegisterTest info");
+			
+			
+			 
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -189,5 +192,6 @@ public class RegisterPageTest extends TestBase {
 		
 		
 		driver.quit();
+		log.info(registerPage);
 	}
 }
