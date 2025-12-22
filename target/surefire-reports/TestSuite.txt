@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 3, Errors: 0, Skipped: 9, Time elapsed: 183.061 s <<< FAILURE! - in TestSuite
-com.qa.test.RegisterPageTest.doRegisterTest[Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1](4)  Time elapsed: 1.752 s  <<< FAILURE!
-java.lang.AssertionError: expected [Warning: You must agree to the Privacy Policy!] but found [false]
-	at com.qa.test.RegisterPageTest.doRegisterTest(RegisterPageTest.java:173)
-
-com.qa.test.RegisterPageTest.doRegisterTest[Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1](8)  Time elapsed: 1.643 s  <<< FAILURE!
-java.lang.AssertionError: expected [Warning: You must agree to the Privacy Policy!] but found [false]
-	at com.qa.test.RegisterPageTest.doRegisterTest(RegisterPageTest.java:173)
-
-com.qa.test.RegisterPageTest.doRegisterTest[Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1](12)  Time elapsed: 1.783 s  <<< FAILURE!
-java.lang.AssertionError: expected [Warning: You must agree to the Privacy Policy!] but found [false]
-	at com.qa.test.RegisterPageTest.doRegisterTest(RegisterPageTest.java:173)
-
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 144.6 s - in TestSuite

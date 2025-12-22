@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="183.061" tests="17" errors="0" skipped="9" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="144.6" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="webdriver.chrome.driver" value="C:\Users\LENOVO\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire13939513398650646076\surefirebooter5084601186163429704.jar C:\Users\LENOVO\AppData\Local\Temp\surefire13939513398650646076 2025-12-21T15-54-10_603-jvmRun1 surefire7872462604654303334tmp surefire_013375631396448916254tmp"/>
+    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire11909115443741424401\surefirebooter17558293651306971438.jar C:\Users\LENOVO\AppData\Local\Temp\surefire11909115443741424401 2025-12-22T12-55-39_407-jvmRun1 surefire16757985265533754655tmp surefire_015358963214915089774tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject\target\test-classes;C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject\target\classes;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LENOVO\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\LENOVO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\LENOVO\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\LENOVO\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\LENOVO\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\LENOVO\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LENOVO\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\LENOVO\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar;C:\Users\LENOVO\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\LENOVO\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\LENOVO\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\LENOVO\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\LENOVO\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\LENOVO\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\LENOVO\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\LENOVO\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\LENOVO\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\LENOVO\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\LENOVO\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\LENOVO\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\LENOVO\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\LENOVO\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\LENOVO\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\LENOVO\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire13939513398650646076\surefirebooter5084601186163429704.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire11909115443741424401\surefirebooter17558293651306971438.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
@@ -60,29 +60,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="doSearchTest[Mobile](1)" classname="com.qa.test.HomePageTest" time="2.169">
+  <testcase name="ValidateThePageTitle" classname="com.qa.test.HomePageTest" time="0.023">
     <system-out><![CDATA[java.io.FileInputStream@2cbb3d47
 java.io.FileInputStream@72a7c7e0
-2025-12-21T10:24:13.861089600Z main ERROR Log4j API could not find a logging provider.
-Mobile
-Laptop
-Mackbook
-java.io.FileInputStream@3ce53f6a
+java.io.FileInputStream@3b718392
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@5412bfea
-Trying to find Element By : By.xpath: //input[@placeholder='Search']
-Found Element By : By.xpath: //input[@placeholder='Search']
-Trying to find Element By : By.xpath: //input[@placeholder='Search']
-Found Element By : By.xpath: //input[@placeholder='Search']
-Trying to find Element By : By.xpath: //button[@class='btn btn-default btn-lg']
-Found Element By : By.xpath: //button[@class='btn btn-default btn-lg']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (44f6a84b1100807746be32f99c2f74c5)] -> xpath: //button[@class='btn btn-default btn-lg']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (44f6a84b1100807746be32f99c2f74c5)] -> xpath: //button[@class='btn btn-default btn-lg']]
-Trying to find Element By : By.cssSelector: div[id='content'] h1
-Found Element By : By.cssSelector: div[id='content'] h1
-PageHeader is Search - Mobile
-Search - Mobile
+java.io.FileInputStream@73e132e0
+Prinnt PageTitleYour Store
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
@@ -90,105 +75,135 @@ SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 log4j:WARN No appenders could be found for logger (com.qa.test.HomePageTest).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 5935
+Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 43860
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 5935.
-Dec 21, 2025 3:54:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 43860.
+Dec 22, 2025 12:56:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doSearchTest[Laptop](2)" classname="com.qa.test.HomePageTest" time="1.58">
-    <system-out><![CDATA[java.io.FileInputStream@4fc3c165
+  <testcase name="doSearchTest[Mobile](1)" classname="com.qa.test.HomePageTest" time="3.35">
+    <system-out><![CDATA[2025-12-22T07:26:20.766589100Z main ERROR Log4j API could not find a logging provider.
+Mobile
+Laptop
+Mackbook
+java.io.FileInputStream@409986fe
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@3e33d73e
+java.io.FileInputStream@75308740
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //button[@class='btn btn-default btn-lg']
 Found Element By : By.xpath: //button[@class='btn btn-default btn-lg']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (30412ddab695725e7b73b18832374853)] -> xpath: //button[@class='btn btn-default btn-lg']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (30412ddab695725e7b73b18832374853)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ce1d057721b45e6ea89cf197655a74aa)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ce1d057721b45e6ea89cf197655a74aa)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Trying to find Element By : By.cssSelector: div[id='content'] h1
+Found Element By : By.cssSelector: div[id='content'] h1
+PageHeader is Search - Mobile
+Search - Mobile
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 19818
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 19818.
+Dec 22, 2025 12:56:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="doSearchTest[Laptop](2)" classname="com.qa.test.HomePageTest" time="1.856">
+    <system-out><![CDATA[java.io.FileInputStream@5cb5bb88
+Before navigating to: 'https://naveenautomationlabs.com/opencart/'
+Navigated to:'https://naveenautomationlabs.com/opencart/'
+java.io.FileInputStream@6ecab872
+Trying to find Element By : By.xpath: //input[@placeholder='Search']
+Found Element By : By.xpath: //input[@placeholder='Search']
+Trying to find Element By : By.xpath: //input[@placeholder='Search']
+Found Element By : By.xpath: //input[@placeholder='Search']
+Trying to find Element By : By.xpath: //button[@class='btn btn-default btn-lg']
+Found Element By : By.xpath: //button[@class='btn btn-default btn-lg']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (50288f029cea3b6cbbfba59055a81215)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (50288f029cea3b6cbbfba59055a81215)] -> xpath: //button[@class='btn btn-default btn-lg']]
 Trying to find Element By : By.cssSelector: div[id='content'] h1
 Found Element By : By.cssSelector: div[id='content'] h1
 PageHeader is Search - Laptop
 Search - Laptop
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 43987
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 43814
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 43987.
-Dec 21, 2025 3:54:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 43814.
+Dec 22, 2025 12:56:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doSearchTest[Mackbook](3)" classname="com.qa.test.HomePageTest" time="1.654">
-    <system-out><![CDATA[java.io.FileInputStream@29149030
+  <testcase name="doSearchTest[Mackbook](3)" classname="com.qa.test.HomePageTest" time="1.84">
+    <system-out><![CDATA[java.io.FileInputStream@3f702946
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@3b27b497
+java.io.FileInputStream@71d9cb05
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //button[@class='btn btn-default btn-lg']
 Found Element By : By.xpath: //button[@class='btn btn-default btn-lg']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (05dfee297adbe5bc749c3273c01d709b)] -> xpath: //button[@class='btn btn-default btn-lg']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (05dfee297adbe5bc749c3273c01d709b)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ccd46501b037b74387250c2a65c7ab2e)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ccd46501b037b74387250c2a65c7ab2e)] -> xpath: //button[@class='btn btn-default btn-lg']]
 Trying to find Element By : By.cssSelector: div[id='content'] h1
 Found Element By : By.cssSelector: div[id='content'] h1
 PageHeader is Search - Mackbook
 Search - Mackbook
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 7417
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 33472
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 7417.
-Dec 21, 2025 3:55:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 33472.
+Dec 22, 2025 12:57:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="ValidateRigesterPageTitle" classname="com.qa.test.RegisterPageTest" time="0.031">
-    <system-out><![CDATA[java.io.FileInputStream@5e1dde44
+  <testcase name="ValidateRigesterPageTitle" classname="com.qa.test.RegisterPageTest" time="0.033">
+    <system-out><![CDATA[java.io.FileInputStream@26f46fa6
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@56399b9e
+java.io.FileInputStream@18d910b3
 Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
 Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (05e2caec16a6cbaf41b1b32981b22683)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (05e2caec16a6cbaf41b1b32981b22683)] -> xpath: //span[normalize-space()='My Account']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (093a9b9edb0b304d29947b3b49331feb)] -> xpath: //span[normalize-space()='My Account']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (093a9b9edb0b304d29947b3b49331feb)] -> xpath: //span[normalize-space()='My Account']]
 Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
 Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (05e2caec16a6cbaf41b1b32981b22683)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (05e2caec16a6cbaf41b1b32981b22683)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@77c233af
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (093a9b9edb0b304d29947b3b49331feb)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (093a9b9edb0b304d29947b3b49331feb)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+java.io.FileInputStream@50850539
 Register Account
 Ragister Page titelRegister Account
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 30364
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 23927
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 30364.
-Dec 21, 2025 3:55:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 23927.
+Dec 22, 2025 12:57:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="validateAllfieldLabel" classname="com.qa.test.RegisterPageTest" time="0.21">
-    <system-out><![CDATA[java.io.FileInputStream@177c41d7
+  <testcase name="validateAllfieldLabel" classname="com.qa.test.RegisterPageTest" time="0.185">
+    <system-out><![CDATA[java.io.FileInputStream@7a81065e
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@7cca01a8
+java.io.FileInputStream@7d3c09ec
 Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
 Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (ca6d68c2b7e6676375bcaa856c1ee1e7)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (ca6d68c2b7e6676375bcaa856c1ee1e7)] -> xpath: //span[normalize-space()='My Account']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (e10f147babbd5b07c4c9477b22852cf3)] -> xpath: //span[normalize-space()='My Account']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (e10f147babbd5b07c4c9477b22852cf3)] -> xpath: //span[normalize-space()='My Account']]
 Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
 Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (ca6d68c2b7e6676375bcaa856c1ee1e7)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (ca6d68c2b7e6676375bcaa856c1ee1e7)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@157ec23b
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (e10f147babbd5b07c4c9477b22852cf3)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (e10f147babbd5b07c4c9477b22852cf3)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+java.io.FileInputStream@6192a5d5
 Trying to find Element By : By.xpath: //div[@id='account-register']//a[@class='list-group-item']
 Found Element By : By.xpath: //div[@id='account-register']//a[@class='list-group-item']
 Totatl Number of Element are ........13
@@ -206,16 +221,15 @@ Print Register Page label Name is : ....Returns
 Print Register Page label Name is : ....Transactions
 Print Register Page label Name is : ....Newsletter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 2552
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 36299
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 2552.
-Dec 21, 2025 3:55:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 36299.
+Dec 22, 2025 12:57:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doRegisterTest[Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1](1)" classname="com.qa.test.RegisterPageTest" time="0">
-    <skipped message="expected [Warning: You must agree to the Privacy Policy!] but found [false]"/>
+  <testcase name="doRegisterTest[Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1](1)" classname="com.qa.test.RegisterPageTest" time="1.757">
     <system-out><![CDATA[Fname 
 LName
 Abcd@abcd.com
@@ -234,19 +248,19 @@ tiwaridhram720@gmail.com
 9354984729
 Dms@test1
 Dms@test1
-java.io.FileInputStream@2c991465
+java.io.FileInputStream@6242ae3b
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@5de5e95
+java.io.FileInputStream@4730e0f0
 Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
 Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9dd8f04c947dfa0d8b8b580b7c5276a1)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9dd8f04c947dfa0d8b8b580b7c5276a1)] -> xpath: //span[normalize-space()='My Account']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9bfdb1c98b643817e6a785a124276079)] -> xpath: //span[normalize-space()='My Account']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9bfdb1c98b643817e6a785a124276079)] -> xpath: //span[normalize-space()='My Account']]
 Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
 Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9dd8f04c947dfa0d8b8b580b7c5276a1)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9dd8f04c947dfa0d8b8b580b7c5276a1)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@73c3cd09
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9bfdb1c98b643817e6a785a124276079)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9bfdb1c98b643817e6a785a124276079)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+java.io.FileInputStream@4a37191a
 Trying to find Element By : By.cssSelector: #input-firstname
 Found Element By : By.cssSelector: #input-firstname
 Trying to find Element By : By.cssSelector: #input-firstname
@@ -276,45 +290,39 @@ Found Element By : By.xpath: //label[normalize-space()='Yes']
 Print Test of RadiobuttonYes
 Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
 Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9dd8f04c947dfa0d8b8b580b7c5276a1)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9dd8f04c947dfa0d8b8b580b7c5276a1)] -> xpath: //label[normalize-space()='Yes']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9bfdb1c98b643817e6a785a124276079)] -> xpath: //label[normalize-space()='Yes']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9bfdb1c98b643817e6a785a124276079)] -> xpath: //label[normalize-space()='Yes']]
 Trying to find Element By : By.xpath: //input[@name='agree']
 Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9dd8f04c947dfa0d8b8b580b7c5276a1)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9dd8f04c947dfa0d8b8b580b7c5276a1)] -> xpath: //input[@name='agree']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9bfdb1c98b643817e6a785a124276079)] -> xpath: //input[@name='agree']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9bfdb1c98b643817e6a785a124276079)] -> xpath: //input[@name='agree']]
 Trying to find Element By : By.xpath: //input[@value='Continue']
 Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9dd8f04c947dfa0d8b8b580b7c5276a1)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9dd8f04c947dfa0d8b8b580b7c5276a1)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Found Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Print Error Message is ! : 
-Test cases has been Sussecc
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot4387920476839412722.png
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9bfdb1c98b643817e6a785a124276079)] -> xpath: //input[@value='Continue']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9bfdb1c98b643817e6a785a124276079)] -> xpath: //input[@value='Continue']]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 20960
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 22117
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 20960.
-Dec 21, 2025 3:55:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 22117.
+Dec 22, 2025 12:57:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doRegisterTest[Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1](2)" classname="com.qa.test.RegisterPageTest" time="0">
-    <skipped message="expected [Warning: You must agree to the Privacy Policy!] but found [false]"/>
-    <system-out><![CDATA[java.io.FileInputStream@1f95881a
+  <testcase name="doRegisterTest[Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1](2)" classname="com.qa.test.RegisterPageTest" time="1.556">
+    <system-out><![CDATA[java.io.FileInputStream@5b5a4aed
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@287ae90c
+java.io.FileInputStream@688a2c09
 Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
 Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (2e954776e143abb831a1df9f03bae349)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (2e954776e143abb831a1df9f03bae349)] -> xpath: //span[normalize-space()='My Account']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d462fccbfaab984570af488e31a67c82)] -> xpath: //span[normalize-space()='My Account']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d462fccbfaab984570af488e31a67c82)] -> xpath: //span[normalize-space()='My Account']]
 Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
 Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (2e954776e143abb831a1df9f03bae349)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (2e954776e143abb831a1df9f03bae349)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@2bbb44da
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d462fccbfaab984570af488e31a67c82)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d462fccbfaab984570af488e31a67c82)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+java.io.FileInputStream@74f827ad
 Trying to find Element By : By.cssSelector: #input-firstname
 Found Element By : By.cssSelector: #input-firstname
 Trying to find Element By : By.cssSelector: #input-firstname
@@ -344,45 +352,39 @@ Found Element By : By.xpath: //label[normalize-space()='Yes']
 Print Test of RadiobuttonYes
 Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
 Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (2e954776e143abb831a1df9f03bae349)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (2e954776e143abb831a1df9f03bae349)] -> xpath: //label[normalize-space()='Yes']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d462fccbfaab984570af488e31a67c82)] -> xpath: //label[normalize-space()='Yes']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d462fccbfaab984570af488e31a67c82)] -> xpath: //label[normalize-space()='Yes']]
 Trying to find Element By : By.xpath: //input[@name='agree']
 Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (2e954776e143abb831a1df9f03bae349)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (2e954776e143abb831a1df9f03bae349)] -> xpath: //input[@name='agree']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d462fccbfaab984570af488e31a67c82)] -> xpath: //input[@name='agree']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d462fccbfaab984570af488e31a67c82)] -> xpath: //input[@name='agree']]
 Trying to find Element By : By.xpath: //input[@value='Continue']
 Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (2e954776e143abb831a1df9f03bae349)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (2e954776e143abb831a1df9f03bae349)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Found Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Print Error Message is ! : 
-Test cases has been Sussecc
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot4110099105622228576.png
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d462fccbfaab984570af488e31a67c82)] -> xpath: //input[@value='Continue']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d462fccbfaab984570af488e31a67c82)] -> xpath: //input[@value='Continue']]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 2845
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 8019
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 2845.
-Dec 21, 2025 3:55:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 8019.
+Dec 22, 2025 12:57:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doRegisterTest[Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1](3)" classname="com.qa.test.RegisterPageTest" time="0">
-    <skipped message="expected [Warning: You must agree to the Privacy Policy!] but found [false]"/>
-    <system-out><![CDATA[java.io.FileInputStream@18b6d3c1
+  <testcase name="doRegisterTest[Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1](3)" classname="com.qa.test.RegisterPageTest" time="1.587">
+    <system-out><![CDATA[java.io.FileInputStream@4cffcc61
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@19489b27
+java.io.FileInputStream@535b1ae6
 Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
 Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (44bac4e500444d48c661261a7c908764)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (44bac4e500444d48c661261a7c908764)] -> xpath: //span[normalize-space()='My Account']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (879d3dd2086c6b5ca6cda33b14da9dde)] -> xpath: //span[normalize-space()='My Account']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (879d3dd2086c6b5ca6cda33b14da9dde)] -> xpath: //span[normalize-space()='My Account']]
 Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
 Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (44bac4e500444d48c661261a7c908764)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (44bac4e500444d48c661261a7c908764)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@202898d7
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (879d3dd2086c6b5ca6cda33b14da9dde)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (879d3dd2086c6b5ca6cda33b14da9dde)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+java.io.FileInputStream@49ca94a9
 Trying to find Element By : By.cssSelector: #input-firstname
 Found Element By : By.cssSelector: #input-firstname
 Trying to find Element By : By.cssSelector: #input-firstname
@@ -412,645 +414,22 @@ Found Element By : By.xpath: //label[normalize-space()='Yes']
 Print Test of RadiobuttonYes
 Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
 Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (44bac4e500444d48c661261a7c908764)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (44bac4e500444d48c661261a7c908764)] -> xpath: //label[normalize-space()='Yes']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (879d3dd2086c6b5ca6cda33b14da9dde)] -> xpath: //label[normalize-space()='Yes']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (879d3dd2086c6b5ca6cda33b14da9dde)] -> xpath: //label[normalize-space()='Yes']]
 Trying to find Element By : By.xpath: //input[@name='agree']
 Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (44bac4e500444d48c661261a7c908764)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (44bac4e500444d48c661261a7c908764)] -> xpath: //input[@name='agree']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (879d3dd2086c6b5ca6cda33b14da9dde)] -> xpath: //input[@name='agree']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (879d3dd2086c6b5ca6cda33b14da9dde)] -> xpath: //input[@name='agree']]
 Trying to find Element By : By.xpath: //input[@value='Continue']
 Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (44bac4e500444d48c661261a7c908764)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (44bac4e500444d48c661261a7c908764)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Found Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Print Error Message is ! : 
-Test cases has been Sussecc
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot13420720993177268002.png
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (879d3dd2086c6b5ca6cda33b14da9dde)] -> xpath: //input[@value='Continue']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (879d3dd2086c6b5ca6cda33b14da9dde)] -> xpath: //input[@value='Continue']]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 34390
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 44058
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 34390.
-Dec 21, 2025 3:55:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="doRegisterTest[Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1](4)" classname="com.qa.test.RegisterPageTest" time="1.752">
-    <failure message="expected [Warning: You must agree to the Privacy Policy!] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Warning: You must agree to the Privacy Policy!] but found [false]
-	at com.qa.test.RegisterPageTest.doRegisterTest(RegisterPageTest.java:173)
-]]></failure>
-    <system-out><![CDATA[java.io.FileInputStream@5e50df2e
-Before navigating to: 'https://naveenautomationlabs.com/opencart/'
-Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@2dd1086
-Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
-Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0bb09cb2658a5f2c00f58d6a0a1cdc19)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0bb09cb2658a5f2c00f58d6a0a1cdc19)] -> xpath: //span[normalize-space()='My Account']]
-Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0bb09cb2658a5f2c00f58d6a0a1cdc19)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0bb09cb2658a5f2c00f58d6a0a1cdc19)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@c4d2c44
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Print Test of RadiobuttonYes
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0bb09cb2658a5f2c00f58d6a0a1cdc19)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0bb09cb2658a5f2c00f58d6a0a1cdc19)] -> xpath: //label[normalize-space()='Yes']]
-Trying to find Element By : By.xpath: //input[@name='agree']
-Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0bb09cb2658a5f2c00f58d6a0a1cdc19)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0bb09cb2658a5f2c00f58d6a0a1cdc19)] -> xpath: //input[@name='agree']]
-Trying to find Element By : By.xpath: //input[@value='Continue']
-Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0bb09cb2658a5f2c00f58d6a0a1cdc19)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0bb09cb2658a5f2c00f58d6a0a1cdc19)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Found Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Print Error Message is ! : 
-Test cases has been Sussecc
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot16989120780233835024.png
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 47430
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 47430.
-Dec 21, 2025 3:55:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="doRegisterTest[Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1](5)" classname="com.qa.test.RegisterPageTest" time="0">
-    <skipped message="expected [Warning: You must agree to the Privacy Policy!] but found [false]"/>
-    <system-out><![CDATA[java.io.FileInputStream@1595d2b2
-Before navigating to: 'https://naveenautomationlabs.com/opencart/'
-Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@22791b75
-Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
-Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (49cfadab0e8c963df9b9767476c937d3)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (49cfadab0e8c963df9b9767476c937d3)] -> xpath: //span[normalize-space()='My Account']]
-Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (49cfadab0e8c963df9b9767476c937d3)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (49cfadab0e8c963df9b9767476c937d3)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@787988f4
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Print Test of RadiobuttonYes
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (49cfadab0e8c963df9b9767476c937d3)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (49cfadab0e8c963df9b9767476c937d3)] -> xpath: //label[normalize-space()='Yes']]
-Trying to find Element By : By.xpath: //input[@name='agree']
-Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (49cfadab0e8c963df9b9767476c937d3)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (49cfadab0e8c963df9b9767476c937d3)] -> xpath: //input[@name='agree']]
-Trying to find Element By : By.xpath: //input[@value='Continue']
-Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (49cfadab0e8c963df9b9767476c937d3)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (49cfadab0e8c963df9b9767476c937d3)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Found Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Print Error Message is ! : 
-Test cases has been Sussecc
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot14495139374195670023.png
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 15751
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 15751.
-Dec 21, 2025 3:56:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="doRegisterTest[Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1](6)" classname="com.qa.test.RegisterPageTest" time="0">
-    <skipped message="expected [Warning: You must agree to the Privacy Policy!] but found [false]"/>
-    <system-out><![CDATA[java.io.FileInputStream@3a9b41a0
-Before navigating to: 'https://naveenautomationlabs.com/opencart/'
-Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@10618775
-Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
-Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (8545c6d3c6a9ae929068cc48de178d6f)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (8545c6d3c6a9ae929068cc48de178d6f)] -> xpath: //span[normalize-space()='My Account']]
-Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (8545c6d3c6a9ae929068cc48de178d6f)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (8545c6d3c6a9ae929068cc48de178d6f)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@2e362407
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Print Test of RadiobuttonYes
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (8545c6d3c6a9ae929068cc48de178d6f)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (8545c6d3c6a9ae929068cc48de178d6f)] -> xpath: //label[normalize-space()='Yes']]
-Trying to find Element By : By.xpath: //input[@name='agree']
-Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (8545c6d3c6a9ae929068cc48de178d6f)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (8545c6d3c6a9ae929068cc48de178d6f)] -> xpath: //input[@name='agree']]
-Trying to find Element By : By.xpath: //input[@value='Continue']
-Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (8545c6d3c6a9ae929068cc48de178d6f)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (8545c6d3c6a9ae929068cc48de178d6f)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Found Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Print Error Message is ! : 
-Test cases has been Sussecc
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot6063920840260473132.png
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 4533
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 4533.
-Dec 21, 2025 3:56:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="doRegisterTest[Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1](7)" classname="com.qa.test.RegisterPageTest" time="0">
-    <skipped message="expected [Warning: You must agree to the Privacy Policy!] but found [false]"/>
-    <system-out><![CDATA[java.io.FileInputStream@7cdb7fc
-Before navigating to: 'https://naveenautomationlabs.com/opencart/'
-Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@796c68bf
-Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
-Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (d095109e182f180e6ccaa6e1b07fb9bb)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (d095109e182f180e6ccaa6e1b07fb9bb)] -> xpath: //span[normalize-space()='My Account']]
-Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (d095109e182f180e6ccaa6e1b07fb9bb)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (d095109e182f180e6ccaa6e1b07fb9bb)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@4c5da4f9
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Print Test of RadiobuttonYes
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (d095109e182f180e6ccaa6e1b07fb9bb)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (d095109e182f180e6ccaa6e1b07fb9bb)] -> xpath: //label[normalize-space()='Yes']]
-Trying to find Element By : By.xpath: //input[@name='agree']
-Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (d095109e182f180e6ccaa6e1b07fb9bb)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (d095109e182f180e6ccaa6e1b07fb9bb)] -> xpath: //input[@name='agree']]
-Trying to find Element By : By.xpath: //input[@value='Continue']
-Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (d095109e182f180e6ccaa6e1b07fb9bb)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (d095109e182f180e6ccaa6e1b07fb9bb)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Found Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Print Error Message is ! : 
-Test cases has been Sussecc
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot9837500043030428586.png
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 48794
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 48794.
-Dec 21, 2025 3:56:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="doRegisterTest[Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1](8)" classname="com.qa.test.RegisterPageTest" time="1.643">
-    <failure message="expected [Warning: You must agree to the Privacy Policy!] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Warning: You must agree to the Privacy Policy!] but found [false]
-	at com.qa.test.RegisterPageTest.doRegisterTest(RegisterPageTest.java:173)
-]]></failure>
-    <system-out><![CDATA[java.io.FileInputStream@27d73d22
-Before navigating to: 'https://naveenautomationlabs.com/opencart/'
-Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@4bfa5eb9
-Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
-Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (80e0cb42e59df4312d2aeb4b7df0733f)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (80e0cb42e59df4312d2aeb4b7df0733f)] -> xpath: //span[normalize-space()='My Account']]
-Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (80e0cb42e59df4312d2aeb4b7df0733f)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (80e0cb42e59df4312d2aeb4b7df0733f)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@350bbd5d
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Print Test of RadiobuttonYes
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (80e0cb42e59df4312d2aeb4b7df0733f)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (80e0cb42e59df4312d2aeb4b7df0733f)] -> xpath: //label[normalize-space()='Yes']]
-Trying to find Element By : By.xpath: //input[@name='agree']
-Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (80e0cb42e59df4312d2aeb4b7df0733f)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (80e0cb42e59df4312d2aeb4b7df0733f)] -> xpath: //input[@name='agree']]
-Trying to find Element By : By.xpath: //input[@value='Continue']
-Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (80e0cb42e59df4312d2aeb4b7df0733f)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (80e0cb42e59df4312d2aeb4b7df0733f)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Found Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Print Error Message is ! : 
-Test cases has been Sussecc
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot14231262144284221269.png
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 3997
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 3997.
-Dec 21, 2025 3:56:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="doRegisterTest[Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1](9)" classname="com.qa.test.RegisterPageTest" time="0">
-    <skipped message="expected [Warning: You must agree to the Privacy Policy!] but found [false]"/>
-    <system-out><![CDATA[java.io.FileInputStream@4b5798c2
-Before navigating to: 'https://naveenautomationlabs.com/opencart/'
-Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@6ac756b
-Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
-Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (e186852639c80954e3a6543ac4fe64bb)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (e186852639c80954e3a6543ac4fe64bb)] -> xpath: //span[normalize-space()='My Account']]
-Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (e186852639c80954e3a6543ac4fe64bb)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (e186852639c80954e3a6543ac4fe64bb)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@ab327c
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Print Test of RadiobuttonYes
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (e186852639c80954e3a6543ac4fe64bb)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (e186852639c80954e3a6543ac4fe64bb)] -> xpath: //label[normalize-space()='Yes']]
-Trying to find Element By : By.xpath: //input[@name='agree']
-Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (e186852639c80954e3a6543ac4fe64bb)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (e186852639c80954e3a6543ac4fe64bb)] -> xpath: //input[@name='agree']]
-Trying to find Element By : By.xpath: //input[@value='Continue']
-Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (e186852639c80954e3a6543ac4fe64bb)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (e186852639c80954e3a6543ac4fe64bb)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Found Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Print Error Message is ! : 
-Test cases has been Sussecc
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot13024619111170235891.png
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 42782
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 42782.
-Dec 21, 2025 3:56:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="doRegisterTest[Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1](10)" classname="com.qa.test.RegisterPageTest" time="0">
-    <skipped message="expected [Warning: You must agree to the Privacy Policy!] but found [false]"/>
-    <system-out><![CDATA[java.io.FileInputStream@279c4e3b
-Before navigating to: 'https://naveenautomationlabs.com/opencart/'
-Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@7ffcb232
-Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
-Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (7bcc3d7ddc26cca26702987ff3ae608b)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (7bcc3d7ddc26cca26702987ff3ae608b)] -> xpath: //span[normalize-space()='My Account']]
-Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (7bcc3d7ddc26cca26702987ff3ae608b)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (7bcc3d7ddc26cca26702987ff3ae608b)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@6fd7aba8
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Print Test of RadiobuttonYes
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (7bcc3d7ddc26cca26702987ff3ae608b)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (7bcc3d7ddc26cca26702987ff3ae608b)] -> xpath: //label[normalize-space()='Yes']]
-Trying to find Element By : By.xpath: //input[@name='agree']
-Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (7bcc3d7ddc26cca26702987ff3ae608b)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (7bcc3d7ddc26cca26702987ff3ae608b)] -> xpath: //input[@name='agree']]
-Trying to find Element By : By.xpath: //input[@value='Continue']
-Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (7bcc3d7ddc26cca26702987ff3ae608b)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (7bcc3d7ddc26cca26702987ff3ae608b)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Found Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Print Error Message is ! : 
-Test cases has been Sussecc
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot15906420671727584622.png
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 26669
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 26669.
-Dec 21, 2025 3:56:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="doRegisterTest[Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1](11)" classname="com.qa.test.RegisterPageTest" time="0">
-    <skipped message="expected [Warning: You must agree to the Privacy Policy!] but found [false]"/>
-    <system-out><![CDATA[java.io.FileInputStream@3a80c534
-Before navigating to: 'https://naveenautomationlabs.com/opencart/'
-Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@3620eab
-Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
-Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0ee5ee1073f3f3cb7427164d30a86a22)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0ee5ee1073f3f3cb7427164d30a86a22)] -> xpath: //span[normalize-space()='My Account']]
-Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0ee5ee1073f3f3cb7427164d30a86a22)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0ee5ee1073f3f3cb7427164d30a86a22)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@590dea35
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Print Test of RadiobuttonYes
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0ee5ee1073f3f3cb7427164d30a86a22)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0ee5ee1073f3f3cb7427164d30a86a22)] -> xpath: //label[normalize-space()='Yes']]
-Trying to find Element By : By.xpath: //input[@name='agree']
-Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0ee5ee1073f3f3cb7427164d30a86a22)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0ee5ee1073f3f3cb7427164d30a86a22)] -> xpath: //input[@name='agree']]
-Trying to find Element By : By.xpath: //input[@value='Continue']
-Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0ee5ee1073f3f3cb7427164d30a86a22)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0ee5ee1073f3f3cb7427164d30a86a22)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Found Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Print Error Message is ! : 
-Test cases has been Sussecc
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot10821792835466139179.png
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 40192
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 40192.
-Dec 21, 2025 3:56:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="doRegisterTest[Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1](12)" classname="com.qa.test.RegisterPageTest" time="1.783">
-    <failure message="expected [Warning: You must agree to the Privacy Policy!] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Warning: You must agree to the Privacy Policy!] but found [false]
-	at com.qa.test.RegisterPageTest.doRegisterTest(RegisterPageTest.java:173)
-]]></failure>
-    <system-out><![CDATA[java.io.FileInputStream@2a531637
-Before navigating to: 'https://naveenautomationlabs.com/opencart/'
-Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@702cfbde
-Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
-Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0389d01d1ba6867747e262339d806bb6)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0389d01d1ba6867747e262339d806bb6)] -> xpath: //span[normalize-space()='My Account']]
-Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0389d01d1ba6867747e262339d806bb6)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0389d01d1ba6867747e262339d806bb6)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@224d537d
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.cssSelector: #input-firstname
-Found Element By : By.cssSelector: #input-firstname
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-lastname']
-Found Element By : By.xpath: //input[@id='input-lastname']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-email']
-Found Element By : By.xpath: //input[@id='input-email']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-telephone']
-Found Element By : By.xpath: //input[@id='input-telephone']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-password']
-Found Element By : By.xpath: //input[@id='input-password']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //input[@id='input-confirm']
-Found Element By : By.xpath: //input[@id='input-confirm']
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Print Test of RadiobuttonYes
-Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
-Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0389d01d1ba6867747e262339d806bb6)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0389d01d1ba6867747e262339d806bb6)] -> xpath: //label[normalize-space()='Yes']]
-Trying to find Element By : By.xpath: //input[@name='agree']
-Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0389d01d1ba6867747e262339d806bb6)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0389d01d1ba6867747e262339d806bb6)] -> xpath: //input[@name='agree']]
-Trying to find Element By : By.xpath: //input[@value='Continue']
-Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0389d01d1ba6867747e262339d806bb6)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0389d01d1ba6867747e262339d806bb6)] -> xpath: //input[@value='Continue']]
-Trying to find Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Found Element By : By.xpath: //div[@class='alert alert-danger alert-dismissible']//i
-Print Error Message is ! : 
-Test cases has been Sussecc
-Screen shot capture on the Path C:\Users\LENOVO\AppData\Local\Temp\screenshot1790561345618944163.png
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 42149
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 42149.
-Dec 21, 2025 3:57:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 44058.
+Dec 22, 2025 12:57:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

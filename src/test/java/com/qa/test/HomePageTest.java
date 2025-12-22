@@ -48,7 +48,7 @@ public class HomePageTest extends TestBase {
 
 		System.out.println("Prinnt PageTitle"+ActualPageTitle);
 
-		Assert.assertEquals(ActualPageTitle, "Your Store");
+		Assert.assertEquals(ActualPageTitle, "Your Stor");
 		log.info("****************************** ending test case *****************************************");
 		log.info("****************************** Your Store *****************************************");
 
