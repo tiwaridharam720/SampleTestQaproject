@@ -36,7 +36,8 @@ public class HomePageTest extends TestBase {
 		homepage = new HomePage();
 	}   
 
-	@Test(priority =1, enabled = false)
+	//Code updated on 22-Dec-2025
+	@Test(priority =1, enabled = true)
 
 	public void ValidateThePageTitle() {
 		log.info("****************************** starting test case *****************************************");
