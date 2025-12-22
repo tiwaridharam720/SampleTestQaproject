@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Online_Store" class="navigator-link">
-              <span class="suite-name border-passed">Online Store</span>
+              <span class="suite-name border-failed">Online Store</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">12 methods, 1 failed,  3 skipped,  8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Online_Store" class="hide-methods failed suite-Online_Store"> (hide)</a> <!-- hide-methods failed suite-Online_Store -->
+                      <a href="#" panel-name="suite-Online_Store" class="show-methods failed suite-Online_Store"> (show)</a> <!-- show-methods failed suite-Online_Store -->
+                    </span>
+                    <div class="method-list-content failed suite-Online_Store">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="ValidateThePageTitle">ValidateThePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Online_Store -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Online_Store" class="hide-methods skipped suite-Online_Store"> (hide)</a> <!-- hide-methods skipped suite-Online_Store -->
+                      <a href="#" panel-name="suite-Online_Store" class="show-methods skipped suite-Online_Store"> (show)</a> <!-- show-methods skipped suite-Online_Store -->
+                    </span>
+                    <div class="method-list-content skipped suite-Online_Store">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="ValidateThePageTitle">ValidateThePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="ValidateThePageTitle">ValidateThePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="ValidateThePageTitle">ValidateThePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Online_Store -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,7 +146,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="ValidateThePageTitle">ValidateThePageTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.RegisterPageTest" class="method navigator-link" hash-for-method="doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)">doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -118,17 +156,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.RegisterPageTest" class="method navigator-link" hash-for-method="doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)">doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Online_Store" title="com.qa.test.RegisterPageTest" class="method navigator-link" hash-for-method="doRegisterTest(Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1)">doRegisterTest(Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="doSearchTest(Mobile)">doSearchTest(Mobile)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="doSearchTest(Mackbook)">doSearchTest(Mackbook)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,7 +171,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="doSearchTest(Mackbook)">doSearchTest(Mackbook)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Online_Store" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="doSearchTest(Mobile)">doSearchTest(Mobile)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -158,6 +191,70 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Online_Store" class="panel Online_Store">
+          <div class="suite-Online_Store-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.test.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateThePageTitle">
+                  </a> <!-- ValidateThePageTitle -->
+                  <span class="method-name">ValidateThePageTitle</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Your Stor] but found [Your Store]
+	at com.qa.test.HomePageTest.ValidateThePageTitle(HomePageTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Online_Store-class-failed -->
+          <div class="suite-Online_Store-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qa.test.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateThePageTitle">
+                  </a> <!-- ValidateThePageTitle -->
+                  <span class="method-name">ValidateThePageTitle</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Your Stor] but found [Your Store]
+	at com.qa.test.HomePageTest.ValidateThePageTitle(HomePageTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateThePageTitle">
+                  </a> <!-- ValidateThePageTitle -->
+                  <span class="method-name">ValidateThePageTitle</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Your Stor] but found [Your Store]
+	at com.qa.test.HomePageTest.ValidateThePageTitle(HomePageTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateThePageTitle">
+                  </a> <!-- ValidateThePageTitle -->
+                  <span class="method-name">ValidateThePageTitle</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Your Stor] but found [Your Store]
+	at com.qa.test.HomePageTest.ValidateThePageTitle(HomePageTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Online_Store-class-skipped -->
           <div class="suite-Online_Store-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -173,18 +270,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1)">
-                  </a> <!-- doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1) -->
-                  <span class="method-name">doRegisterTest</span>
-                  <span class="parameters">(Fname ,LName,Abc@abc.com,9354984729,Dms@test1,Dms@test1)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)">
                   </a> <!-- doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1) -->
                   <span class="method-name">doRegisterTest</span>
                   <span class="parameters">(Fname ,LName,Abcd@abcd.com,9999999999,Dms@test1,Dms@test1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1)">
+                  </a> <!-- doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1) -->
+                  <span class="method-name">doRegisterTest</span>
+                  <span class="parameters">(Fname ,LName,Abc@abc.com,9354984729,Dms@test1,Dms@test1)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -212,17 +309,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ValidateThePageTitle">
-                  </a> <!-- ValidateThePageTitle -->
-                  <span class="method-name">ValidateThePageTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="doSearchTest(Mobile)">
-                  </a> <!-- doSearchTest(Mobile) -->
+                  <a name="doSearchTest(Mackbook)">
+                  </a> <!-- doSearchTest(Mackbook) -->
                   <span class="method-name">doSearchTest</span>
-                  <span class="parameters">(Mobile)</span>
+                  <span class="parameters">(Mackbook)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -235,10 +325,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="doSearchTest(Mackbook)">
-                  </a> <!-- doSearchTest(Mackbook) -->
+                  <a name="doSearchTest(Mobile)">
+                  </a> <!-- doSearchTest(Mobile) -->
                   <span class="method-name">doSearchTest</span>
-                  <span class="parameters">(Mackbook)</span>
+                  <span class="parameters">(Mobile)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -300,48 +390,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'doSearchTest')
-data.setCell(0, 2, 'com.qa.test.HomePageTest')
-data.setCell(0, 3, 3349);
+data.setCell(0, 1, 'doRegisterTest')
+data.setCell(0, 2, 'com.qa.test.RegisterPageTest')
+data.setCell(0, 3, 13465);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'doSearchTest')
 data.setCell(1, 2, 'com.qa.test.HomePageTest')
-data.setCell(1, 3, 1864);
+data.setCell(1, 3, 3272);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'doSearchTest')
-data.setCell(2, 2, 'com.qa.test.HomePageTest')
-data.setCell(2, 3, 1842);
+data.setCell(2, 1, 'doRegisterTest')
+data.setCell(2, 2, 'com.qa.test.RegisterPageTest')
+data.setCell(2, 3, 2566);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'doRegisterTest')
 data.setCell(3, 2, 'com.qa.test.RegisterPageTest')
-data.setCell(3, 3, 1755);
+data.setCell(3, 3, 2465);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'doRegisterTest')
-data.setCell(4, 2, 'com.qa.test.RegisterPageTest')
-data.setCell(4, 3, 1595);
+data.setCell(4, 1, 'doSearchTest')
+data.setCell(4, 2, 'com.qa.test.HomePageTest')
+data.setCell(4, 3, 1955);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'doRegisterTest')
-data.setCell(5, 2, 'com.qa.test.RegisterPageTest')
-data.setCell(5, 3, 1553);
+data.setCell(5, 1, 'doSearchTest')
+data.setCell(5, 2, 'com.qa.test.HomePageTest')
+data.setCell(5, 3, 1864);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'validateAllfieldLabel')
 data.setCell(6, 2, 'com.qa.test.RegisterPageTest')
-data.setCell(6, 3, 190);
+data.setCell(6, 3, 181);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'ValidateRigesterPageTitle')
-data.setCell(7, 2, 'com.qa.test.RegisterPageTest')
-data.setCell(7, 3, 48);
+data.setCell(7, 1, 'ValidateThePageTitle')
+data.setCell(7, 2, 'com.qa.test.HomePageTest')
+data.setCell(7, 3, 124);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'ValidateThePageTitle')
 data.setCell(8, 2, 'com.qa.test.HomePageTest')
-data.setCell(8, 3, 47);
+data.setCell(8, 3, 22);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ValidateThePageTitle')
+data.setCell(9, 2, 'com.qa.test.HomePageTest')
+data.setCell(9, 3, 22);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ValidateThePageTitle')
+data.setCell(10, 2, 'com.qa.test.HomePageTest')
+data.setCell(10, 3, 17);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ValidateRigesterPageTitle')
+data.setCell(11, 2, 'com.qa.test.RegisterPageTest')
+data.setCell(11, 3, 15);
 window.suiteTableData['Online_Store']= { tableData: data, tableDiv: 'times-div-Online_Store'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-Online_Store">
               </div> <!-- times-div-Online_Store -->
             </div> <!-- times-div -->
@@ -374,110 +476,148 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ValidateThePageTitle</span>
-                <span class="method-start">27350 ms</span>
+                <span class="method-start">25695 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">27401 ms</span>
+                <span class="method-start">25822 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">35174 ms</span>
+                <span class="method-start">30263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateThePageTitle</span>
+                <span class="method-start">38174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">38192 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">42508 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateThePageTitle</span>
+                <span class="method-start">52089 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">52111 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">56456 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidateThePageTitle</span>
+                <span class="method-start">65503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">65565 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">70568 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">doSearchTest(Mobile)</span>
-                <span class="method-start">47993 ms</span>
+                <span class="method-start">76555 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">51352 ms</span>
+                <span class="method-start">79836 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">55802 ms</span>
+                <span class="method-start">85004 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">doSearchTest(Laptop)</span>
-                <span class="method-start">67747 ms</span>
+                <span class="method-start">92954 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">69612 ms</span>
+                <span class="method-start">94915 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">74334 ms</span>
+                <span class="method-start">99281 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">doSearchTest(Mackbook)</span>
-                <span class="method-start">83702 ms</span>
+                <span class="method-start">107522 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">85545 ms</span>
+                <span class="method-start">109392 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.test.RegisterPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">89924 ms</span>
+                <span class="method-start">113698 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ValidateRigesterPageTitle</span>
-                <span class="method-start">100382 ms</span>
+                <span class="method-start">123310 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">100430 ms</span>
+                <span class="method-start">123326 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">100662 ms</span>
+                <span class="method-start">123546 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateAllfieldLabel</span>
-                <span class="method-start">109193 ms</span>
+                <span class="method-start">131721 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">109384 ms</span>
+                <span class="method-start">131902 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">109612 ms</span>
+                <span class="method-start">132106 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">doRegisterTest(Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1)</span>
-                <span class="method-start">118059 ms</span>
+                <span class="method-start">146645 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">119815 ms</span>
+                <span class="method-start">160110 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">120110 ms</span>
+                <span class="method-start">160610 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">doRegisterTest(Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1)</span>
-                <span class="method-start">129526 ms</span>
+                <span class="method-start">189796 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">131080 ms</span>
+                <span class="method-start">192363 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">131253 ms</span>
+                <span class="method-start">200644 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">doRegisterTest(Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1)</span>
-                <span class="method-start">138943 ms</span>
+                <span class="method-start">215409 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">140539 ms</span>
+                <span class="method-start">217875 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
