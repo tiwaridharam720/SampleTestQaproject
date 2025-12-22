@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="220.571" tests="12" errors="0" skipped="3" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="232.531" tests="12" errors="0" skipped="3" failures="1">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="webdriver.chrome.driver" value="C:\Users\LENOVO\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire17915001952444447977\surefirebooter8477072584315044228.jar C:\Users\LENOVO\AppData\Local\Temp\surefire17915001952444447977 2025-12-22T13-02-25_244-jvmRun1 surefire2524733212153860730tmp surefire_016252282222625544013tmp"/>
+    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire18041381765554906587\surefirebooter830183316817434328.jar C:\Users\LENOVO\AppData\Local\Temp\surefire18041381765554906587 2025-12-22T14-00-39_769-jvmRun1 surefire10193620234799960593tmp surefire_05118728360360257856tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject\target\test-classes;C:\Users\LENOVO\eclipse-workspace\SampleQA.TestProject\target\classes;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LENOVO\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\LENOVO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\LENOVO\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\LENOVO\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\LENOVO\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\LENOVO\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LENOVO\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\LENOVO\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar;C:\Users\LENOVO\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\LENOVO\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\LENOVO\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\LENOVO\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\LENOVO\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\LENOVO\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\LENOVO\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\LENOVO\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\LENOVO\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\LENOVO\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\LENOVO\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\LENOVO\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\LENOVO\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\LENOVO\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\LENOVO\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\LENOVO\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\LENOVO\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\LENOVO\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire17915001952444447977\surefirebooter8477072584315044228.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire18041381765554906587\surefirebooter830183316817434328.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
@@ -64,10 +64,10 @@
     <skipped message="expected [Your Stor] but found [Your Store]"/>
     <system-out><![CDATA[java.io.FileInputStream@2cbb3d47
 java.io.FileInputStream@72a7c7e0
-java.io.FileInputStream@3b718392
+java.io.FileInputStream@6272c96f
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@73e132e0
+java.io.FileInputStream@2032e725
 Prinnt PageTitleYour Store
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
@@ -76,185 +76,185 @@ SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 log4j:WARN No appenders could be found for logger (com.qa.test.HomePageTest).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 43358
+Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 3653
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 43358.
-Dec 22, 2025 1:02:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 3653.
+Dec 22, 2025 2:01:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
   <testcase name="ValidateThePageTitle" classname="com.qa.test.HomePageTest" time="0">
     <skipped message="expected [Your Stor] but found [Your Store]"/>
-    <system-out><![CDATA[java.io.FileInputStream@7f4037ed
+    <system-out><![CDATA[java.io.FileInputStream@5b94ccbc
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@39ab59f8
+java.io.FileInputStream@621f89b8
 Prinnt PageTitleYour Store
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 1911
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 8011
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 1911.
-Dec 22, 2025 1:02:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 8011.
+Dec 22, 2025 2:01:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
   <testcase name="ValidateThePageTitle" classname="com.qa.test.HomePageTest" time="0">
     <skipped message="expected [Your Stor] but found [Your Store]"/>
-    <system-out><![CDATA[java.io.FileInputStream@41477a6d
+    <system-out><![CDATA[java.io.FileInputStream@f3fcd59
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@3605c4d3
+java.io.FileInputStream@79b08632
 Prinnt PageTitleYour Store
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 6134
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 39408
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 6134.
-Dec 22, 2025 1:03:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 39408.
+Dec 22, 2025 2:02:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="ValidateThePageTitle" classname="com.qa.test.HomePageTest" time="0.051">
+  <testcase name="ValidateThePageTitle" classname="com.qa.test.HomePageTest" time="0.011">
     <failure message="expected [Your Stor] but found [Your Store]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Your Stor] but found [Your Store]
 	at com.qa.test.HomePageTest.ValidateThePageTitle(HomePageTest.java:51)
 ]]></failure>
-    <system-out><![CDATA[java.io.FileInputStream@31e32ea2
+    <system-out><![CDATA[java.io.FileInputStream@58e85c6f
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@30404dba
+java.io.FileInputStream@38c2c309
 Prinnt PageTitleYour Store
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 29114
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 36988
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 29114.
-Dec 22, 2025 1:03:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 36988.
+Dec 22, 2025 2:02:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doSearchTest[Mobile](1)" classname="com.qa.test.HomePageTest" time="3.275">
-    <system-out><![CDATA[2025-12-22T07:33:37.241100300Z main ERROR Log4j API could not find a logging provider.
+  <testcase name="doSearchTest[Mobile](1)" classname="com.qa.test.HomePageTest" time="2.326">
+    <system-out><![CDATA[2025-12-22T08:32:32.595340900Z main ERROR Log4j API could not find a logging provider.
 Mobile
 Laptop
 Mackbook
-java.io.FileInputStream@36bf84e
+java.io.FileInputStream@3f1ef9d6
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@4715ae33
+java.io.FileInputStream@3b5c665c
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //button[@class='btn btn-default btn-lg']
 Found Element By : By.xpath: //button[@class='btn btn-default btn-lg']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (374d7b75c2e3f3ae290cc1d7144d1231)] -> xpath: //button[@class='btn btn-default btn-lg']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (374d7b75c2e3f3ae290cc1d7144d1231)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (87cbe9843c72c226b527339df20d69e6)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (87cbe9843c72c226b527339df20d69e6)] -> xpath: //button[@class='btn btn-default btn-lg']]
 Trying to find Element By : By.cssSelector: div[id='content'] h1
 Found Element By : By.cssSelector: div[id='content'] h1
 PageHeader is Search - Mobile
 Search - Mobile
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 27214
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 25894
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 27214.
-Dec 22, 2025 1:03:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 25894.
+Dec 22, 2025 2:02:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doSearchTest[Laptop](2)" classname="com.qa.test.HomePageTest" time="1.956">
-    <system-out><![CDATA[java.io.FileInputStream@2f2bff16
+  <testcase name="doSearchTest[Laptop](2)" classname="com.qa.test.HomePageTest" time="4.465">
+    <system-out><![CDATA[java.io.FileInputStream@1e236278
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@252a8aae
+java.io.FileInputStream@45f756e6
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //button[@class='btn btn-default btn-lg']
 Found Element By : By.xpath: //button[@class='btn btn-default btn-lg']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (e7a649371ed58e6fa094a788abb36bde)] -> xpath: //button[@class='btn btn-default btn-lg']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (e7a649371ed58e6fa094a788abb36bde)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5c03f59d75b48c519fea79bb70deb5e)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d5c03f59d75b48c519fea79bb70deb5e)] -> xpath: //button[@class='btn btn-default btn-lg']]
 Trying to find Element By : By.cssSelector: div[id='content'] h1
 Found Element By : By.cssSelector: div[id='content'] h1
 PageHeader is Search - Laptop
 Search - Laptop
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 31976
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 23005
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 31976.
-Dec 22, 2025 1:03:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 23005.
+Dec 22, 2025 2:02:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doSearchTest[Mackbook](3)" classname="com.qa.test.HomePageTest" time="1.864">
-    <system-out><![CDATA[java.io.FileInputStream@33634f04
+  <testcase name="doSearchTest[Mackbook](3)" classname="com.qa.test.HomePageTest" time="1.881">
+    <system-out><![CDATA[java.io.FileInputStream@79aee22a
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@4f5b08d
+java.io.FileInputStream@60bb7995
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //input[@placeholder='Search']
 Found Element By : By.xpath: //input[@placeholder='Search']
 Trying to find Element By : By.xpath: //button[@class='btn btn-default btn-lg']
 Found Element By : By.xpath: //button[@class='btn btn-default btn-lg']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (d56ff80ff201b487090dea6eb1661383)] -> xpath: //button[@class='btn btn-default btn-lg']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (d56ff80ff201b487090dea6eb1661383)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (a0c7fc1ce0762af9dae376796f63cb58)] -> xpath: //button[@class='btn btn-default btn-lg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (a0c7fc1ce0762af9dae376796f63cb58)] -> xpath: //button[@class='btn btn-default btn-lg']]
 Trying to find Element By : By.cssSelector: div[id='content'] h1
 Found Element By : By.cssSelector: div[id='content'] h1
 PageHeader is Search - Mackbook
 Search - Mackbook
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 4880
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 12060
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 4880.
-Dec 22, 2025 1:04:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 12060.
+Dec 22, 2025 2:03:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="ValidateRigesterPageTitle" classname="com.qa.test.RegisterPageTest" time="0.006">
-    <system-out><![CDATA[java.io.FileInputStream@18f55704
+  <testcase name="ValidateRigesterPageTitle" classname="com.qa.test.RegisterPageTest" time="0.01">
+    <system-out><![CDATA[java.io.FileInputStream@92d1782
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@43c87306
+java.io.FileInputStream@1d06f16f
 Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
 Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (b397565bf33ca396ba3bcbde425b6074)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (b397565bf33ca396ba3bcbde425b6074)] -> xpath: //span[normalize-space()='My Account']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (eff2754027cd5433ab46c37b6d1190ba)] -> xpath: //span[normalize-space()='My Account']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (eff2754027cd5433ab46c37b6d1190ba)] -> xpath: //span[normalize-space()='My Account']]
 Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
 Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (b397565bf33ca396ba3bcbde425b6074)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (b397565bf33ca396ba3bcbde425b6074)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@37496720
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (eff2754027cd5433ab46c37b6d1190ba)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (eff2754027cd5433ab46c37b6d1190ba)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+java.io.FileInputStream@1860f3be
 Register Account
 Ragister Page titelRegister Account
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 34564
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 9107
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 34564.
-Dec 22, 2025 1:04:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 9107.
+Dec 22, 2025 2:03:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="validateAllfieldLabel" classname="com.qa.test.RegisterPageTest" time="0.176">
-    <system-out><![CDATA[java.io.FileInputStream@1fd9893c
+  <testcase name="validateAllfieldLabel" classname="com.qa.test.RegisterPageTest" time="0.304">
+    <system-out><![CDATA[java.io.FileInputStream@1b0e9707
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@326e0b8e
+java.io.FileInputStream@6fcd31c3
 Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
 Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (42a5f54caf0fd8cffb20c2f0de3baae4)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (42a5f54caf0fd8cffb20c2f0de3baae4)] -> xpath: //span[normalize-space()='My Account']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7dbb0d0b1f54f4f02c4af4428e64e6a4)] -> xpath: //span[normalize-space()='My Account']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7dbb0d0b1f54f4f02c4af4428e64e6a4)] -> xpath: //span[normalize-space()='My Account']]
 Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
 Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (42a5f54caf0fd8cffb20c2f0de3baae4)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (42a5f54caf0fd8cffb20c2f0de3baae4)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@5d4e13e1
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7dbb0d0b1f54f4f02c4af4428e64e6a4)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7dbb0d0b1f54f4f02c4af4428e64e6a4)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+java.io.FileInputStream@2cd388f5
 Trying to find Element By : By.xpath: //div[@id='account-register']//a[@class='list-group-item']
 Found Element By : By.xpath: //div[@id='account-register']//a[@class='list-group-item']
 Totatl Number of Element are ........13
@@ -272,15 +272,15 @@ Print Register Page label Name is : ....Returns
 Print Register Page label Name is : ....Transactions
 Print Register Page label Name is : ....Newsletter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 9840
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 14477
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 9840.
-Dec 22, 2025 1:04:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 14477.
+Dec 22, 2025 2:03:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doRegisterTest[Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1](1)" classname="com.qa.test.RegisterPageTest" time="13.461">
+  <testcase name="doRegisterTest[Fname , LName, Abcd@abcd.com, 9999999999, Dms@test1, Dms@test1](1)" classname="com.qa.test.RegisterPageTest" time="5.01">
     <system-out><![CDATA[Fname 
 LName
 Abcd@abcd.com
@@ -299,19 +299,19 @@ tiwaridhram720@gmail.com
 9354984729
 Dms@test1
 Dms@test1
-java.io.FileInputStream@73a8e994
+java.io.FileInputStream@6adc5b9c
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@670f2466
+java.io.FileInputStream@4ac8768e
 Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
 Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (8c239b2bb7ad5982c288dc403214f989)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (8c239b2bb7ad5982c288dc403214f989)] -> xpath: //span[normalize-space()='My Account']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (bccf8d3456467f64d0fe7a09f80f57e3)] -> xpath: //span[normalize-space()='My Account']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (bccf8d3456467f64d0fe7a09f80f57e3)] -> xpath: //span[normalize-space()='My Account']]
 Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
 Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (8c239b2bb7ad5982c288dc403214f989)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (8c239b2bb7ad5982c288dc403214f989)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@6ef60295
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (bccf8d3456467f64d0fe7a09f80f57e3)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (bccf8d3456467f64d0fe7a09f80f57e3)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+java.io.FileInputStream@3cdc7b09
 Trying to find Element By : By.cssSelector: #input-firstname
 Found Element By : By.cssSelector: #input-firstname
 Trying to find Element By : By.cssSelector: #input-firstname
@@ -341,39 +341,39 @@ Found Element By : By.xpath: //label[normalize-space()='Yes']
 Print Test of RadiobuttonYes
 Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
 Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (8c239b2bb7ad5982c288dc403214f989)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (8c239b2bb7ad5982c288dc403214f989)] -> xpath: //label[normalize-space()='Yes']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (bccf8d3456467f64d0fe7a09f80f57e3)] -> xpath: //label[normalize-space()='Yes']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (bccf8d3456467f64d0fe7a09f80f57e3)] -> xpath: //label[normalize-space()='Yes']]
 Trying to find Element By : By.xpath: //input[@name='agree']
 Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (8c239b2bb7ad5982c288dc403214f989)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (8c239b2bb7ad5982c288dc403214f989)] -> xpath: //input[@name='agree']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (bccf8d3456467f64d0fe7a09f80f57e3)] -> xpath: //input[@name='agree']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (bccf8d3456467f64d0fe7a09f80f57e3)] -> xpath: //input[@name='agree']]
 Trying to find Element By : By.xpath: //input[@value='Continue']
 Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (8c239b2bb7ad5982c288dc403214f989)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (8c239b2bb7ad5982c288dc403214f989)] -> xpath: //input[@value='Continue']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (bccf8d3456467f64d0fe7a09f80f57e3)] -> xpath: //input[@value='Continue']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (bccf8d3456467f64d0fe7a09f80f57e3)] -> xpath: //input[@value='Continue']]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 47071
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 26460
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 47071.
-Dec 22, 2025 1:04:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 26460.
+Dec 22, 2025 2:03:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doRegisterTest[Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1](2)" classname="com.qa.test.RegisterPageTest" time="2.563">
-    <system-out><![CDATA[java.io.FileInputStream@583fb274
+  <testcase name="doRegisterTest[Fname , LName, Abc@abc.com, 9354984729, Dms@test1, Dms@test1](2)" classname="com.qa.test.RegisterPageTest" time="0.941">
+    <system-out><![CDATA[java.io.FileInputStream@740dcae3
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@56846330
+java.io.FileInputStream@2eada095
 Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
 Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (5b1d6712e78db731eff8ebb239c64d80)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (5b1d6712e78db731eff8ebb239c64d80)] -> xpath: //span[normalize-space()='My Account']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (431eb5f189615b0f4adac1338d88c792)] -> xpath: //span[normalize-space()='My Account']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (431eb5f189615b0f4adac1338d88c792)] -> xpath: //span[normalize-space()='My Account']]
 Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
 Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (5b1d6712e78db731eff8ebb239c64d80)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (5b1d6712e78db731eff8ebb239c64d80)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@481558ce
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (431eb5f189615b0f4adac1338d88c792)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (431eb5f189615b0f4adac1338d88c792)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+java.io.FileInputStream@3c19592c
 Trying to find Element By : By.cssSelector: #input-firstname
 Found Element By : By.cssSelector: #input-firstname
 Trying to find Element By : By.cssSelector: #input-firstname
@@ -403,39 +403,39 @@ Found Element By : By.xpath: //label[normalize-space()='Yes']
 Print Test of RadiobuttonYes
 Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
 Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (5b1d6712e78db731eff8ebb239c64d80)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (5b1d6712e78db731eff8ebb239c64d80)] -> xpath: //label[normalize-space()='Yes']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (431eb5f189615b0f4adac1338d88c792)] -> xpath: //label[normalize-space()='Yes']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (431eb5f189615b0f4adac1338d88c792)] -> xpath: //label[normalize-space()='Yes']]
 Trying to find Element By : By.xpath: //input[@name='agree']
 Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (5b1d6712e78db731eff8ebb239c64d80)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (5b1d6712e78db731eff8ebb239c64d80)] -> xpath: //input[@name='agree']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (431eb5f189615b0f4adac1338d88c792)] -> xpath: //input[@name='agree']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (431eb5f189615b0f4adac1338d88c792)] -> xpath: //input[@name='agree']]
 Trying to find Element By : By.xpath: //input[@value='Continue']
 Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (5b1d6712e78db731eff8ebb239c64d80)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (5b1d6712e78db731eff8ebb239c64d80)] -> xpath: //input[@value='Continue']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (431eb5f189615b0f4adac1338d88c792)] -> xpath: //input[@value='Continue']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (431eb5f189615b0f4adac1338d88c792)] -> xpath: //input[@value='Continue']]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 4601
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 17846
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 4601.
-Dec 22, 2025 1:05:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 17846.
+Dec 22, 2025 2:04:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="doRegisterTest[Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1](3)" classname="com.qa.test.RegisterPageTest" time="2.46">
-    <system-out><![CDATA[java.io.FileInputStream@456f7d9e
+  <testcase name="doRegisterTest[Fname , LName, tiwaridhram720@gmail.com, 9354984729, Dms@test1, Dms@test1](3)" classname="com.qa.test.RegisterPageTest" time="1.974">
+    <system-out><![CDATA[java.io.FileInputStream@40d848f9
 Before navigating to: 'https://naveenautomationlabs.com/opencart/'
 Navigated to:'https://naveenautomationlabs.com/opencart/'
-java.io.FileInputStream@7069f076
+java.io.FileInputStream@1b52699c
 Trying to find Element By : By.xpath: //span[normalize-space()='My Account']
 Found Element By : By.xpath: //span[normalize-space()='My Account']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (4d95a00f24a19e3e9b9c3ccaa1df6c6d)] -> xpath: //span[normalize-space()='My Account']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (4d95a00f24a19e3e9b9c3ccaa1df6c6d)] -> xpath: //span[normalize-space()='My Account']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d95107f09abe7340786ad37dd16185bc)] -> xpath: //span[normalize-space()='My Account']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d95107f09abe7340786ad37dd16185bc)] -> xpath: //span[normalize-space()='My Account']]
 Trying to find Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
 Found Element By : By.xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (4d95a00f24a19e3e9b9c3ccaa1df6c6d)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (4d95a00f24a19e3e9b9c3ccaa1df6c6d)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
-java.io.FileInputStream@4d93f75b
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d95107f09abe7340786ad37dd16185bc)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d95107f09abe7340786ad37dd16185bc)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+java.io.FileInputStream@4b9dbf07
 Trying to find Element By : By.cssSelector: #input-firstname
 Found Element By : By.cssSelector: #input-firstname
 Trying to find Element By : By.cssSelector: #input-firstname
@@ -465,22 +465,22 @@ Found Element By : By.xpath: //label[normalize-space()='Yes']
 Print Test of RadiobuttonYes
 Trying to find Element By : By.xpath: //label[normalize-space()='Yes']
 Found Element By : By.xpath: //label[normalize-space()='Yes']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (4d95a00f24a19e3e9b9c3ccaa1df6c6d)] -> xpath: //label[normalize-space()='Yes']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (4d95a00f24a19e3e9b9c3ccaa1df6c6d)] -> xpath: //label[normalize-space()='Yes']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d95107f09abe7340786ad37dd16185bc)] -> xpath: //label[normalize-space()='Yes']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d95107f09abe7340786ad37dd16185bc)] -> xpath: //label[normalize-space()='Yes']]
 Trying to find Element By : By.xpath: //input[@name='agree']
 Found Element By : By.xpath: //input[@name='agree']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (4d95a00f24a19e3e9b9c3ccaa1df6c6d)] -> xpath: //input[@name='agree']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (4d95a00f24a19e3e9b9c3ccaa1df6c6d)] -> xpath: //input[@name='agree']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d95107f09abe7340786ad37dd16185bc)] -> xpath: //input[@name='agree']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d95107f09abe7340786ad37dd16185bc)] -> xpath: //input[@name='agree']]
 Trying to find Element By : By.xpath: //input[@value='Continue']
 Found Element By : By.xpath: //input[@value='Continue']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (4d95a00f24a19e3e9b9c3ccaa1df6c6d)] -> xpath: //input[@value='Continue']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (4d95a00f24a19e3e9b9c3ccaa1df6c6d)] -> xpath: //input[@value='Continue']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d95107f09abe7340786ad37dd16185bc)] -> xpath: //input[@value='Continue']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d95107f09abe7340786ad37dd16185bc)] -> xpath: //input[@value='Continue']]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 17012
+    <system-err><![CDATA[Starting ChromeDriver 143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399}) on port 14871
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 17012.
-Dec 22, 2025 1:05:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 14871.
+Dec 22, 2025 2:04:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

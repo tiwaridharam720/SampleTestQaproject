@@ -132,3 +132,37 @@
 2025-12-20 17:57:59,628 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
 2025-12-20 17:57:59,629 WARN  com.qa.test.RegisterPageTest - Error is coming 
 2025-12-20 17:57:59,631 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2025-12-22 14:18:51,211 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-22 14:19:36,254 INFO  com.qa.test.HomePageTest - ****************************** starting test case *****************************************
+2025-12-22 14:19:36,256 INFO  com.qa.test.HomePageTest - ****************************** Your Store *****************************************
+2025-12-22 14:19:40,894 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-22 14:19:40,903 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-22 14:19:51,219 INFO  com.qa.test.HomePageTest - ****************************** starting test case *****************************************
+2025-12-22 14:19:51,220 INFO  com.qa.test.HomePageTest - ****************************** Your Store *****************************************
+2025-12-22 14:19:55,734 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-22 14:19:55,741 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-22 14:20:09,327 INFO  com.qa.test.HomePageTest - ****************************** starting test case *****************************************
+2025-12-22 14:20:09,329 INFO  com.qa.test.HomePageTest - ****************************** Your Store *****************************************
+2025-12-22 14:20:13,659 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-22 14:20:13,668 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-22 14:20:27,483 INFO  com.qa.test.HomePageTest - ****************************** starting test case *****************************************
+2025-12-22 14:20:27,485 INFO  com.qa.test.HomePageTest - ****************************** Your Store *****************************************
+2025-12-22 14:20:31,816 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-22 14:20:32,825 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-22 14:20:47,212 INFO  com.qa.test.HomePageTest - ******************Info Search Product********************
+2025-12-22 14:20:47,212 DEBUG com.qa.test.HomePageTest - *********************Search Product********************
+2025-12-22 14:20:47,212 FATAL com.qa.test.HomePageTest - *********************Fatal Search Product**************
+2025-12-22 14:20:47,213 WARN  com.qa.test.HomePageTest - **********************Waring Search Product*************
+2025-12-22 14:20:51,636 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-22 14:20:51,640 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-22 14:21:02,361 INFO  com.qa.test.HomePageTest - ******************Info Search Product********************
+2025-12-22 14:21:02,361 DEBUG com.qa.test.HomePageTest - *********************Search Product********************
+2025-12-22 14:21:02,362 FATAL com.qa.test.HomePageTest - *********************Fatal Search Product**************
+2025-12-22 14:21:02,363 WARN  com.qa.test.HomePageTest - **********************Waring Search Product*************
+2025-12-22 14:21:06,757 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2025-12-22 14:21:06,761 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2025-12-22 14:21:17,273 INFO  com.qa.test.HomePageTest - ******************Info Search Product********************
+2025-12-22 14:21:17,273 DEBUG com.qa.test.HomePageTest - *********************Search Product********************
+2025-12-22 14:21:17,273 FATAL com.qa.test.HomePageTest - *********************Fatal Search Product**************
+2025-12-22 14:21:17,274 WARN  com.qa.test.HomePageTest - **********************Waring Search Product*************
+2025-12-22 14:21:21,630 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************

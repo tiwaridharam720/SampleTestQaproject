@@ -38,7 +38,7 @@ public class RegisterPageTest extends TestBase {
 	RegisterPage registerPage;
 	String SheetName ="RegisterData";
 	
-	Logger log = Logger.getLogger(RegisterPageTest.class);	
+	 private static final Logger log = Logger.getLogger(RegisterPageTest.class);	
 	
 	@FindBy(how=How.XPATH, using ="//*[@id='account']/div/label")
 	private List<WebElement> PageLabelLIST;
@@ -160,6 +160,8 @@ public class RegisterPageTest extends TestBase {
 		return data;
 	}
 
+	//Code updated on 22-Dec-2025
+	
 	@Test(priority=3, dataProvider="getRegisterTestdata", enabled=true)
 
 	public void doRegisterTest(String Fisrtname, String Lastname, String Emaild,String PhoneNUmber, String Password, String ConfirmPassword) {

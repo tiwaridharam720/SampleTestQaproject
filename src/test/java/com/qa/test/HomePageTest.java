@@ -19,7 +19,7 @@ public class HomePageTest extends TestBase {
 	
 	String SheetName="HomePage";
 
-    Logger log = Logger.getLogger(HomePageTest.class);   
+	 private static final Logger log = Logger.getLogger(HomePageTest.class);   
 	
 	public HomePageTest() {
 
@@ -48,11 +48,11 @@ public class HomePageTest extends TestBase {
 
 		System.out.println("Prinnt PageTitle"+ActualPageTitle);
 
-		Assert.assertEquals(ActualPageTitle, "Your Stor");
+		Assert.assertEquals(ActualPageTitle, "Your Store");
 		log.info("****************************** ending test case *****************************************");
-		log.info("****************************** Your Store *****************************************");
-
-
+		log.debug("****************************** Your Store in Debug information *****************************************");
+		log.fatal("****************************** Your Store getting Fatal *****************************************");
+        log.error(ActualPageTitle +" Getting Error Message or not .............");
 
 	}
 
