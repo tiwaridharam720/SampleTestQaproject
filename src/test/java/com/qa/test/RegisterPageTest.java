@@ -97,7 +97,8 @@ public class RegisterPageTest extends TestBase {
 			int Total_Labelcnt;
 				try {
 					Total_Labelcnt = LabelList.size();
-					System.out.println("Totatl Number of Element are ........" +Total_Labelcnt);
+					System.out.println("Totatl Number of Element are ........" +Total_Labelcnt+"Update the code 16-2-2026");
+					System.out.println("Hello Date udpate on 10-02-2026");
 					
 					 for(int i=0;i<Total_Labelcnt;i++) {
 						   

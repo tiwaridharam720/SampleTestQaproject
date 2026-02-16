@@ -166,3 +166,64 @@
 2025-12-22 14:21:17,273 FATAL com.qa.test.HomePageTest - *********************Fatal Search Product**************
 2025-12-22 14:21:17,274 WARN  com.qa.test.HomePageTest - **********************Waring Search Product*************
 2025-12-22 14:21:21,630 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2026-02-16 14:14:25,491 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2026-02-16 14:14:56,040 INFO  com.qa.test.HomePageTest - ****************************** starting test case *****************************************
+2026-02-16 14:14:56,041 INFO  com.qa.test.HomePageTest - ****************************** Your Store *****************************************
+2026-02-16 14:14:56,177 INFO  com.qa.test.HomePageTest - ****************************** ending test case *****************************************
+2026-02-16 14:14:56,178 DEBUG com.qa.test.HomePageTest - ****************************** Your Store in Debug information *****************************************
+2026-02-16 14:14:56,179 FATAL com.qa.test.HomePageTest - ****************************** Your Store getting Fatal *****************************************
+2026-02-16 14:14:56,180 ERROR com.qa.test.HomePageTest - Your Store Getting Error Message or not .............
+2026-02-16 14:15:00,829 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2026-02-16 14:15:02,767 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2026-02-16 14:15:12,627 INFO  com.qa.test.HomePageTest - ******************Info Search Product********************
+2026-02-16 14:15:12,627 DEBUG com.qa.test.HomePageTest - *********************Search Product********************
+2026-02-16 14:15:12,628 FATAL com.qa.test.HomePageTest - *********************Fatal Search Product**************
+2026-02-16 14:15:12,628 WARN  com.qa.test.HomePageTest - **********************Waring Search Product*************
+2026-02-16 14:15:17,012 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2026-02-16 14:15:17,015 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2026-02-16 14:15:24,804 INFO  com.qa.test.HomePageTest - ******************Info Search Product********************
+2026-02-16 14:15:24,805 DEBUG com.qa.test.HomePageTest - *********************Search Product********************
+2026-02-16 14:15:24,806 FATAL com.qa.test.HomePageTest - *********************Fatal Search Product**************
+2026-02-16 14:15:24,806 WARN  com.qa.test.HomePageTest - **********************Waring Search Product*************
+2026-02-16 14:15:29,097 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2026-02-16 14:15:29,107 INFO  com.qa.test.HomePageTest - ****************************Starting the Test Case execustion***********
+2026-02-16 14:15:36,848 INFO  com.qa.test.HomePageTest - ******************Info Search Product********************
+2026-02-16 14:15:36,849 DEBUG com.qa.test.HomePageTest - *********************Search Product********************
+2026-02-16 14:15:36,850 FATAL com.qa.test.HomePageTest - *********************Fatal Search Product**************
+2026-02-16 14:15:36,851 WARN  com.qa.test.HomePageTest - **********************Waring Search Product*************
+2026-02-16 14:15:41,159 INFO  com.qa.test.HomePageTest - ****************************** Browser is closed *****************************************
+2026-02-16 14:15:41,170 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2026-02-16 14:15:45,541 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@614d01b
+2026-02-16 14:15:48,345 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2026-02-16 14:15:48,345 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2026-02-16 14:15:48,346 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2026-02-16 14:15:48,377 DEBUG com.qa.test.RegisterPageTest - Register Account
+2026-02-16 14:15:49,717 ERROR com.qa.test.RegisterPageTest - Getting error-------
+2026-02-16 14:15:49,727 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2026-02-16 14:15:54,967 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@7fecc26f
+2026-02-16 14:15:56,395 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2026-02-16 14:15:56,395 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2026-02-16 14:15:56,395 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2026-02-16 14:15:56,695 DEBUG com.qa.test.RegisterPageTest - [[[ChromeDriver: chrome on WINDOWS (1a7e24758f169556910a0b611f472015)] -> xpath: //div[@id='account-register']//a[@class='list-group-item']], [[ChromeDriver: chrome on WINDOWS (1a7e24758f169556910a0b611f472015)] -> xpath: //div[@id='account-register']//a[@class='list-group-item']], [[ChromeDriver: chrome on WINDOWS (1a7e24758f169556910a0b611f472015)] -> xpath: //div[@id='account-register']//a[@class='list-group-item']], [[ChromeDriver: chrome on WINDOWS (1a7e24758f169556910a0b611f472015)] -> xpath: //div[@id='account-register']//a[@class='list-group-item']], [[ChromeDriver: chrome on WINDOWS (1a7e24758f169556910a0b611f472015)] -> xpath: //div[@id='account-register']//a[@class='list-group-item']], [[ChromeDriver: chrome on WINDOWS (1a7e24758f169556910a0b611f472015)] -> xpath: //div[@id='account-register']//a[@class='list-group-item']], [[ChromeDriver: chrome on WINDOWS (1a7e24758f169556910a0b611f472015)] -> xpath: //div[@id='account-register']//a[@class='list-group-item']], [[ChromeDriver: chrome on WINDOWS (1a7e24758f169556910a0b611f472015)] -> xpath: //div[@id='account-register']//a[@class='list-group-item']], [[ChromeDriver: chrome on WINDOWS (1a7e24758f169556910a0b611f472015)] -> xpath: //div[@id='account-register']//a[@class='list-group-item']], [[ChromeDriver: chrome on WINDOWS (1a7e24758f169556910a0b611f472015)] -> xpath: //div[@id='account-register']//a[@class='list-group-item']], [[ChromeDriver: chrome on WINDOWS (1a7e24758f169556910a0b611f472015)] -> xpath: //div[@id='account-register']//a[@class='list-group-item']], [[ChromeDriver: chrome on WINDOWS (1a7e24758f169556910a0b611f472015)] -> xpath: //div[@id='account-register']//a[@class='list-group-item']], [[ChromeDriver: chrome on WINDOWS (1a7e24758f169556910a0b611f472015)] -> xpath: //div[@id='account-register']//a[@class='list-group-item']]]Validation
+2026-02-16 14:15:57,142 ERROR com.qa.test.RegisterPageTest - Getting error-------
+2026-02-16 14:15:57,177 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2026-02-16 14:16:03,730 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@38624a3a
+2026-02-16 14:16:04,821 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2026-02-16 14:16:04,823 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2026-02-16 14:16:04,823 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2026-02-16 14:16:06,765 INFO  com.qa.test.RegisterPageTest - RegisterTest info
+2026-02-16 14:16:07,121 ERROR com.qa.test.RegisterPageTest - Getting error-------
+2026-02-16 14:16:07,124 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2026-02-16 14:16:14,104 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@53b81a55
+2026-02-16 14:16:15,243 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2026-02-16 14:16:15,244 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2026-02-16 14:16:15,244 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2026-02-16 14:16:17,165 INFO  com.qa.test.RegisterPageTest - RegisterTest info
+2026-02-16 14:16:17,572 ERROR com.qa.test.RegisterPageTest - Getting error-------
+2026-02-16 14:16:17,574 INFO  com.qa.test.RegisterPageTest - ******* Browser Opening *****
+2026-02-16 14:16:22,845 DEBUG com.qa.test.RegisterPageTest - com.qa.util.WebElementListener@4b024fb2
+2026-02-16 14:16:23,882 INFO  com.qa.test.RegisterPageTest - ******* Register user Details********
+2026-02-16 14:16:23,882 WARN  com.qa.test.RegisterPageTest - Error is coming 
+2026-02-16 14:16:23,883 FATAL com.qa.test.RegisterPageTest - Fatal Error message
+2026-02-16 14:16:26,374 INFO  com.qa.test.RegisterPageTest - RegisterTest info
+2026-02-16 14:16:26,720 ERROR com.qa.test.RegisterPageTest - Getting error-------

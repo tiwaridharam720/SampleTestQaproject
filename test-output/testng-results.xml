@@ -1,233 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="3" ignored="0" total="7" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-22T14:18:51 IST" name="Online Store" finished-at="2025-12-22T14:21:21 IST" duration-ms="150520">
+  <suite started-at="2026-02-16T14:14:25 IST" name="Online Store" finished-at="2026-02-16T14:16:26 IST" duration-ms="121384">
     <groups>
     </groups>
-    <test started-at="2025-12-22T14:18:51 IST" name="Default test" finished-at="2025-12-22T14:21:21 IST" duration-ms="150520">
+    <test started-at="2026-02-16T14:14:25 IST" name="Test" finished-at="2026-02-16T14:16:26 IST" duration-ms="121384">
       <class name="com.qa.test.HomePageTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:18:51 IST" name="Setup" finished-at="2025-12-22T14:19:36 IST" duration-ms="45030" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@aa5455e]" started-at="2026-02-16T14:14:25 IST" name="Setup" finished-at="2026-02-16T14:14:55 IST" duration-ms="30492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method retried="true" signature="ValidateThePageTitle()[pri:1, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:19:36 IST" name="ValidateThePageTitle" finished-at="2025-12-22T14:19:36 IST" duration-ms="226" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Your Stor] but found [Your Store]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Your Stor] but found [Your Store]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.qa.test.HomePageTest.ValidateThePageTitle(HomePageTest.java:51)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="ValidateThePageTitle()[pri:1, instance:com.qa.test.HomePageTest@aa5455e]" started-at="2026-02-16T14:14:55 IST" name="ValidateThePageTitle" finished-at="2026-02-16T14:14:56 IST" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateThePageTitle -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:19:36 IST" name="Teardown" finished-at="2025-12-22T14:19:40 IST" duration-ms="4420" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@aa5455e]" started-at="2026-02-16T14:14:56 IST" name="Teardown" finished-at="2026-02-16T14:15:00 IST" duration-ms="4643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:19:40 IST" name="Setup" finished-at="2025-12-22T14:19:51 IST" duration-ms="10316" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@aa5455e]" started-at="2026-02-16T14:15:02 IST" name="Setup" finished-at="2026-02-16T14:15:10 IST" duration-ms="7999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method retried="true" signature="ValidateThePageTitle()[pri:1, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:19:51 IST" name="ValidateThePageTitle" finished-at="2025-12-22T14:19:51 IST" duration-ms="10" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Your Stor] but found [Your Store]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Your Stor] but found [Your Store]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.qa.test.HomePageTest.ValidateThePageTitle(HomePageTest.java:51)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateThePageTitle -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:19:51 IST" name="Teardown" finished-at="2025-12-22T14:19:55 IST" duration-ms="4506" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:19:55 IST" name="Setup" finished-at="2025-12-22T14:20:09 IST" duration-ms="13583" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method retried="true" signature="ValidateThePageTitle()[pri:1, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:20:09 IST" name="ValidateThePageTitle" finished-at="2025-12-22T14:20:09 IST" duration-ms="25" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Your Stor] but found [Your Store]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Your Stor] but found [Your Store]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.qa.test.HomePageTest.ValidateThePageTitle(HomePageTest.java:51)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateThePageTitle -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:20:09 IST" name="Teardown" finished-at="2025-12-22T14:20:13 IST" duration-ms="4311" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:20:13 IST" name="Setup" finished-at="2025-12-22T14:20:27 IST" duration-ms="13814" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="ValidateThePageTitle()[pri:1, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:20:27 IST" name="ValidateThePageTitle" finished-at="2025-12-22T14:20:27 IST" duration-ms="17" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Your Stor] but found [Your Store]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Your Stor] but found [Your Store]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.qa.test.HomePageTest.ValidateThePageTitle(HomePageTest.java:51)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateThePageTitle -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:20:27 IST" name="Teardown" finished-at="2025-12-22T14:20:31 IST" duration-ms="4314" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:20:32 IST" name="Setup" finished-at="2025-12-22T14:20:44 IST" duration-ms="12030" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="doSearchTest(java.lang.String)[pri:2, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:20:44 IST" name="doSearchTest" data-provider="HomePageTestData" finished-at="2025-12-22T14:20:47 IST" duration-ms="2359" status="PASS">
+        <test-method signature="doSearchTest(java.lang.String)[pri:2, instance:com.qa.test.HomePageTest@aa5455e]" started-at="2026-02-16T14:15:10 IST" name="doSearchTest" data-provider="HomePageTestData" finished-at="2026-02-16T14:15:12 IST" duration-ms="1863" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -238,15 +34,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSearchTest -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:20:47 IST" name="Teardown" finished-at="2025-12-22T14:20:51 IST" duration-ms="4420" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@aa5455e]" started-at="2026-02-16T14:15:12 IST" name="Teardown" finished-at="2026-02-16T14:15:17 IST" duration-ms="4377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:20:51 IST" name="Setup" finished-at="2025-12-22T14:21:00 IST" duration-ms="8869" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@aa5455e]" started-at="2026-02-16T14:15:17 IST" name="Setup" finished-at="2026-02-16T14:15:23 IST" duration-ms="6022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="doSearchTest(java.lang.String)[pri:2, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:21:00 IST" name="doSearchTest" data-provider="HomePageTestData" finished-at="2025-12-22T14:21:02 IST" duration-ms="1856" status="PASS">
+        <test-method signature="doSearchTest(java.lang.String)[pri:2, instance:com.qa.test.HomePageTest@aa5455e]" started-at="2026-02-16T14:15:23 IST" name="doSearchTest" data-provider="HomePageTestData" finished-at="2026-02-16T14:15:24 IST" duration-ms="1771" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -257,15 +53,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSearchTest -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:21:02 IST" name="Teardown" finished-at="2025-12-22T14:21:06 IST" duration-ms="4390" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@aa5455e]" started-at="2026-02-16T14:15:24 IST" name="Teardown" finished-at="2026-02-16T14:15:29 IST" duration-ms="4289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:21:06 IST" name="Setup" finished-at="2025-12-22T14:21:15 IST" duration-ms="8592" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.HomePageTest@aa5455e]" started-at="2026-02-16T14:15:29 IST" name="Setup" finished-at="2026-02-16T14:15:33 IST" duration-ms="4108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="doSearchTest(java.lang.String)[pri:2, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:21:15 IST" name="doSearchTest" data-provider="HomePageTestData" finished-at="2025-12-22T14:21:17 IST" duration-ms="1921" status="PASS">
+        <test-method signature="doSearchTest(java.lang.String)[pri:2, instance:com.qa.test.HomePageTest@aa5455e]" started-at="2026-02-16T14:15:33 IST" name="doSearchTest" data-provider="HomePageTestData" finished-at="2026-02-16T14:15:36 IST" duration-ms="3640" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -276,11 +72,169 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSearchTest -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@1b6e1eff]" started-at="2025-12-22T14:21:17 IST" name="Teardown" finished-at="2025-12-22T14:21:21 IST" duration-ms="4356" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.qa.test.HomePageTest@aa5455e]" started-at="2026-02-16T14:15:36 IST" name="Teardown" finished-at="2026-02-16T14:15:41 IST" duration-ms="4299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- com.qa.test.HomePageTest -->
-    </test> <!-- Default test -->
+      <class name="com.qa.test.RegisterPageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:15:41 IST" name="Setup" finished-at="2026-02-16T14:15:48 IST" duration-ms="7178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ValidateRigesterPageTitle()[pri:1, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:15:48 IST" name="ValidateRigesterPageTitle" finished-at="2026-02-16T14:15:48 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRigesterPageTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:15:48 IST" name="teardown" finished-at="2026-02-16T14:15:49 IST" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:15:49 IST" name="Setup" finished-at="2026-02-16T14:15:56 IST" duration-ms="6674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="validateAllfieldLabel()[pri:2, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:15:56 IST" name="validateAllfieldLabel" finished-at="2026-02-16T14:15:56 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllfieldLabel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:15:56 IST" name="teardown" finished-at="2026-02-16T14:15:57 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:15:57 IST" name="Setup" finished-at="2026-02-16T14:16:04 IST" duration-ms="7648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="doRegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:16:04 IST" name="doRegisterTest" data-provider="getRegisterTestdata" finished-at="2026-02-16T14:16:06 IST" duration-ms="1941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fname ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcd@abcd.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Dms@test1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Dms@test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:16:06 IST" name="teardown" finished-at="2026-02-16T14:16:07 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:16:07 IST" name="Setup" finished-at="2026-02-16T14:16:15 IST" duration-ms="8121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="doRegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:16:15 IST" name="doRegisterTest" data-provider="getRegisterTestdata" finished-at="2026-02-16T14:16:17 IST" duration-ms="1920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fname ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abc@abc.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9354984729]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Dms@test1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Dms@test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:16:17 IST" name="teardown" finished-at="2026-02-16T14:16:17 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:16:17 IST" name="Setup" finished-at="2026-02-16T14:16:23 IST" duration-ms="6309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="doRegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:16:23 IST" name="doRegisterTest" data-provider="getRegisterTestdata" finished-at="2026-02-16T14:16:26 IST" duration-ms="2491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fname ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tiwaridhram720@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9354984729]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Dms@test1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Dms@test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.test.RegisterPageTest@71b1a49c]" started-at="2026-02-16T14:16:26 IST" name="teardown" finished-at="2026-02-16T14:16:26 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.test.RegisterPageTest -->
+    </test> <!-- Test -->
   </suite> <!-- Online Store -->
 </testng-results>

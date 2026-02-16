@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 12, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 232.531 s <<< FAILURE! - in TestSuite
-com.qa.test.HomePageTest.ValidateThePageTitle  Time elapsed: 0.011 s  <<< FAILURE!
-java.lang.AssertionError: expected [Your Stor] but found [Your Store]
-	at com.qa.test.HomePageTest.ValidateThePageTitle(HomePageTest.java:51)
-
